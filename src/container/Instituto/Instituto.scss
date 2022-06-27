@@ -1,0 +1,17 @@
+.container__instituto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .container__imagem {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .container__texto {
+    width: 60%;
+    margin-left: 6rem;
+  }
+}

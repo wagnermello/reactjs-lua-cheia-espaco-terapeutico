@@ -1,0 +1,12 @@
+.header {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(103, 80, 214, 09),rgba(7, 3, 28, .9)), url('../../assets/bg_hero.jpg');
+    padding: 5rem 2rem 0rem;
+
+    
+}

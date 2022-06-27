@@ -3,12 +3,13 @@ import { Navbar } from './components'
 
 import './App.scss'
 import './Base.css'
+import RoutesApp from './router'
 
 
 const App = () => {
   return (
     <div>
-      <Navbar />
+      <RoutesApp />
     </div>
   )
 }
