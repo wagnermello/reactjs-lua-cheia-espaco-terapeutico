@@ -12,16 +12,16 @@ import SagradoFeminino from './SagradoFeminino/SagradoFeminino'
 import Taro from './Taro/Taro'
 
 export {
-    Atendimentos,
-    Ayahuasca,
-    Benzimentos,
-    CerimoniaUniversalista,
-    ConeChines,
-    Instituto,
-    Localizacao,
-    MedicinasFloresta,
-    Rape,
-    Reiki,
-    SagradoFeminino,
-    Taro
+	Atendimentos,
+	Ayahuasca,
+	Benzimentos,
+	CerimoniaUniversalista,
+	ConeChines,
+	Instituto,
+	Localizacao,
+	MedicinasFloresta,
+	Rape,
+	Reiki,
+	SagradoFeminino,
+	Taro,
 }

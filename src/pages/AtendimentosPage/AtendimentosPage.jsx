@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Atendimentos from "../../container/Atendimentos/Atendimentos";
 
 function AtendimentosPage() {
-  return (
-    <div>AtendimentosPage</div>
-  )
+	return (
+		<div>
+			<Atendimentos />
+		</div>
+	);
 }
 
-export default AtendimentosPage
+export default AtendimentosPage;
