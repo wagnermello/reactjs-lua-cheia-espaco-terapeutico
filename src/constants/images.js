@@ -9,6 +9,7 @@ import instagram_icon from "../assets/instagram_icon.png";
 import bg_secaoatendimento from "../assets/bg_secaoatendimento.jpg";
 import icone_atendimento_online from "../assets/icone_atendimento_online.png";
 import icone_atendimento_presencial from "../assets/icone_atendimento_presencial.png";
+import velas from "../assets/velas.png";
 
 export default {
 	logo,
@@ -22,4 +23,5 @@ export default {
 	bg_secaoatendimento,
 	icone_atendimento_online,
 	icone_atendimento_presencial,
+	velas,
 };

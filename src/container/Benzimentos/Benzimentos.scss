@@ -1,0 +1,45 @@
+.benzimentos {
+	.benzimentos__container {
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		align-items: center;
+
+		.benzimentos__imagem {
+			@media screen and (max-width: 900px) {
+				display: none;
+			}
+		}
+
+		.benzimentos__text {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-start;
+			width: 100%;
+			margin-left: 6rem;
+			width: 50%;
+			gap: 4rem;
+
+			@media screen and (max-width: 900px) {
+				width: 100%;
+				margin-left: 0;
+				align-items: center;
+			}
+
+			h1 {
+				@media screen and (max-width: 900px) {
+					text-align: center;
+				}
+			}
+
+			img {
+				display: none;
+
+				@media screen and (max-width: 900px) {
+					display: flex;
+				}
+			}
+		}
+	}
+}

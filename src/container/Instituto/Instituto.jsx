@@ -5,7 +5,7 @@ import "./Instituto.scss";
 
 function Instituto() {
 	return (
-		<section className="container__instituto app__wrapper">
+		<section className="instituto__container app__wrapper">
 			<div className="container__imagem">
 				<motion.div
 					whileInView={{ opacity: [0, 1] }}
