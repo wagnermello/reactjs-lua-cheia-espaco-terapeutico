@@ -6,8 +6,11 @@
 		align-items: center;
 
 		.benzimentos__image {
+			padding-left: 2rem;
+
 			@media screen and (max-width: 900px) {
 				display: none;
+				padding-left: 0;
 			}
 		}
 
@@ -16,11 +19,10 @@
 			flex-direction: column;
 			justify-content: center;
 			align-items: flex-start;
-			width: 100%;
 			margin-left: 6rem;
 			width: 50%;
 			gap: 4rem;
-			padding-right: 5rem;
+			padding-right: 2rem;
 
 			@media screen and (max-width: 1200px) {
 				padding-right: 0;

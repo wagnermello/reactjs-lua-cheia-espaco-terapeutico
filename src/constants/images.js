@@ -12,6 +12,7 @@ import icone_atendimento_presencial from "../assets/icone_atendimento_presencial
 import velas from "../assets/velas.png";
 import bg_secaotaro from "../assets/bg_secaotaro.jpg";
 import reiki from "../assets/reiki.png";
+import cone_chines from "../assets/cone_chines.png";
 
 export default {
 	logo,
@@ -28,4 +29,5 @@ export default {
 	velas,
 	bg_secaotaro,
 	reiki,
+	cone_chines,
 };

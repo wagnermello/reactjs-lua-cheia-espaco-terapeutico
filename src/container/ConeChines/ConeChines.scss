@@ -1,0 +1,74 @@
+.cone-chines {
+	background: var(--light-purple-1);
+	.cone-chines__container {
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		align-items: center;
+		width: 100%;
+
+		.cone-chines__image {
+			width: 50%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-right: 6rem;
+
+			img {
+				width: 100%;
+				@media screen and (max-width: 1280px) {
+					width: 100%;
+				}
+
+				@media screen and (min-width: 1600px) {
+					width: 60%;
+				}
+			}
+
+			@media screen and (max-width: 900px) {
+				display: none;
+			}
+		}
+
+		.cone-chines__text {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-start;
+			width: 50%;
+			gap: 4rem;
+			padding-right: 4rem;
+
+			@media screen and (max-width: 1280px) {
+				padding-right: 1rem;
+				width: 50%;
+			}
+
+			@media screen and (max-width: 900px) {
+				width: 100%;
+				padding-right: 0;
+
+				align-items: center;
+			}
+
+			h1 {
+				@media screen and (max-width: 900px) {
+					text-align: center;
+				}
+			}
+
+			img {
+				display: none;
+
+				@media screen and (max-width: 900px) {
+					display: flex;
+					width: 50%;
+				}
+				@media screen and (max-width: 460px) {
+					display: flex;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
