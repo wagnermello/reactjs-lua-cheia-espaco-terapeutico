@@ -42,8 +42,8 @@ function Instituto() {
 					<br />
 					Desta união, abençoada pela sincronicidade do destino, se
 					estabeleceram os dois pilares dos serviços propostos pelo Lua Cheia: o
-					<strong>pilar terapêutico</strong> e o{" "}
-					<strong>pilar espiritualista</strong>. Como costuma dizer o Cristiano
+					<strong> pilar terapêutico</strong> e o
+					<strong> pilar espiritualista</strong>. Como costuma dizer o Cristiano
 					“o sonho de Deus se realiza quando a ciência e a espiritualidade se
 					encontram e caminham juntas”.
 				</p>

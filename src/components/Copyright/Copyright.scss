@@ -1,0 +1,25 @@
+.copyright__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	background: #000;
+	padding: 0.5rem 2rem;
+	font-size: 0.75rem;
+
+	p {
+		color: var(--white-color);
+	}
+
+	a {
+		text-decoration: none;
+		color: var(--white-color);
+		font-weight: 700;
+	}
+
+	@media screen and (max-width: 900px) {
+		justify-content: center;
+		flex-direction: column;
+		gap: 0.25rem;
+	}
+}

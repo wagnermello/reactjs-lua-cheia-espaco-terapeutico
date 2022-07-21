@@ -35,6 +35,13 @@ section {
 	align-items: center;
 }
 
+.flex__center__column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .flex__center {
 	display: flex;
 	justify-content: center;
@@ -47,9 +54,32 @@ section {
 	font-weight: 600;
 }
 
+.title-white {
+	font-size: 1.5rem;
+	color: var(--white-color);
+	font-weight: 600;
+}
+
 .p-text {
 	font-size: 1rem;
 	color: var(--gray-color);
+}
+
+.p-text-bold {
+	font-size: 1rem;
+	color: var(--gray-color);
+	font-weight: 700;
+}
+
+.p-text-white {
+	font-size: 1rem;
+	color: var(--white-color);
+}
+
+.p-text-white-bold {
+	font-size: 1rem;
+	color: var(--white-color);
+	font-weight: 700;
 }
 
 strong {
@@ -70,5 +100,10 @@ strong {
 
 	&:hover {
 		scale: 1.02;
+	}
+
+	@media screen and (max-width: 900px) {
+		width: 100%;
+		font-size: 1rem;
 	}
 }
