@@ -6,6 +6,9 @@ import maraca from "../assets/maraca.png";
 import whatsapp_icon from "../assets/whatsapp_icon.png";
 import facebook_icon from "../assets/facebook_icon.png";
 import instagram_icon from "../assets/instagram_icon.png";
+import bg_secaoatendimento from "../assets/bg_secaoatendimento.jpg";
+import icone_atendimento_online from "../assets/icone_atendimento_online.png";
+import icone_atendimento_presencial from "../assets/icone_atendimento_presencial.png";
 
 export default {
 	logo,
@@ -16,4 +19,7 @@ export default {
 	whatsapp_icon,
 	facebook_icon,
 	instagram_icon,
+	bg_secaoatendimento,
+	icone_atendimento_online,
+	icone_atendimento_presencial,
 };

@@ -1,0 +1,23 @@
+.atendimentos {
+	gap: 4rem;
+	text-align: center !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(
+			rgb(232, 230, 255, 0.9),
+			rgb(232, 230, 255, 0.9)
+		),
+		url("../../assets/bg_secaoatendimento.jpg");
+	padding: 5rem 2rem 0rem !important;
+
+	@media screen and (max-width: 900px) {
+		padding: 4rem 2rem !important;
+		background-image: rgb(197, 189, 255),
+			url("../../assets/bg_secaoatendimento.jpg");
+	}
+
+	img {
+		width: 65%;
+		margin: 0 2rem 1rem 2rem;
+	}
+}

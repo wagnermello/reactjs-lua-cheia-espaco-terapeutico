@@ -11,7 +11,7 @@ function Instituto() {
 					whileInView={{ opacity: [0, 1] }}
 					transition={{ duration: 1, delay: 0.1 }}
 				>
-					<img src={images.maraca} alt="" />
+					<img src={images.maraca} alt="maracas xamânicas" />
 				</motion.div>
 			</div>
 			<motion.div
