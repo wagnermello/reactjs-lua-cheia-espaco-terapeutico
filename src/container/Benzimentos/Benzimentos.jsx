@@ -12,7 +12,7 @@ function Benzimentos() {
 				whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
 				transition={{ duration: 0.5 }}
 			>
-				<div className="benzimentos__imagem">
+				<div className="benzimentos__image">
 					<img src={images.velas} alt="velas" />
 				</div>
 				<div className="benzimentos__text">

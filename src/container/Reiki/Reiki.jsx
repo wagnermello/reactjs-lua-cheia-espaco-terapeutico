@@ -1,9 +1,36 @@
-import React from 'react'
+import React from "react";
+import { motion } from "framer-motion";
+import images from "../../constants/images";
+
+import "./Reiki.scss";
 
 function Reiki() {
-  return (
-    <div>Reiki</div>
-  )
+	return (
+		<section className="reiki app__wrapper">
+			<motion.div
+				className="reiki__container flex__center"
+				whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+				transition={{ duration: 0.5 }}
+			>
+				<div className="reiki__text">
+					<h1 className="title">Reiki</h1>
+					<img src={images.reiki} alt="reiki" />
+					<p className="p-text">
+						O <b>REIKI</b> é uma técnica auxiliar nas <b>CURAS físicas</b>,{" "}
+						<b>mentais</b>, <b>emocionais</b>e energéticas. O atendimento com o
+						REIKI é feito pelos terapeutas Cristiano Dullius ou Renata Ilha.
+						Eles utilizam ferramentas xamânicas para complementar o atendimento:
+						cristais, incensos, ervas, óleos essenciais ou defumação, conforme a
+						necessidade.
+					</p>
+					<button className="button-purple">AGENDAR REIKI</button>
+				</div>
+				<div className="reiki__image">
+					<img src={images.reiki} alt="reiki" />
+				</div>
+			</motion.div>
+		</section>
+	);
 }
 
-export default Reiki
+export default Reiki;

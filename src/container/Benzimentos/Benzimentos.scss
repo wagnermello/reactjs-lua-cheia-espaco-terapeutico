@@ -5,7 +5,7 @@
 		flex-direction: row;
 		align-items: center;
 
-		.benzimentos__imagem {
+		.benzimentos__image {
 			@media screen and (max-width: 900px) {
 				display: none;
 			}
@@ -20,6 +20,11 @@
 			margin-left: 6rem;
 			width: 50%;
 			gap: 4rem;
+			padding-right: 5rem;
+
+			@media screen and (max-width: 1200px) {
+				padding-right: 0;
+			}
 
 			@media screen and (max-width: 900px) {
 				width: 100%;

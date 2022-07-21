@@ -8,8 +8,8 @@ function Taro() {
 		<section className="taro app__wrapper">
 			<motion.div
 				className="taro__container flex__center__column"
-				whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-				transition={{ duration: 0.5 }}
+				whileInView={{ opacity: [0, 1] }}
+				transition={{ duration: 1, delay: 0.1 }}
 			>
 				<h1 className="title-white">Tarô</h1>
 				<p className="p-text-white">
