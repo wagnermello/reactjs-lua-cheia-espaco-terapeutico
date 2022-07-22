@@ -1,0 +1,69 @@
+.cerimonia-universalista {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(rgb(103, 80, 214, 09), rgba(7, 3, 28, 0.9)),
+		url("../../assets/bg_cerimoniauniversalista.jpg");
+
+	.cerimonia-universalista__container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		gap: 0 4rem;
+	}
+
+	.cerimonia-universalisa__image-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 40%;
+
+		@media screen and (max-width: 900px) {
+			display: none;
+		}
+	}
+
+	.cerimonia-universalista__text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		gap: 4rem;
+		width: 60%;
+
+		@media screen and (max-width: 1200px) {
+			gap: 2rem;
+		}
+
+		@media screen and (max-width: 900px) {
+			width: 100%;
+
+			gap: 4rem;
+		}
+
+		img {
+			display: none;
+			@media screen and(max-width: 900px) {
+				display: flex;
+				width: 60%;
+				align-self: center;
+			}
+
+			@media screen and(max-width: 460px) {
+				width: 85%;
+			}
+		}
+
+		h1 {
+			@media screen and(max-width: 900px) {
+				align-self: center;
+			}
+		}
+	}
+}

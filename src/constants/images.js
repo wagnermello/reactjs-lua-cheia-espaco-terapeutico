@@ -17,7 +17,7 @@ import bg_secao_medicinasdafloresta from "../assets/bg_secao_medicinasdafloresta
 import ayahuasca from "../assets/ayahuasca.png";
 import tambor_xamanico from "../assets/tambor_xamanico.png";
 import lua from "../assets/lua.png";
-import bg_cerimoniauniversalista from "../assets/bg_cerimoniauniversalista.png";
+import bg_cerimoniauniversalista from "../assets/bg_cerimoniauniversalista.jpg";
 
 export default {
 	logo,
