@@ -22,5 +22,9 @@
 		@media screen and (max-width: 900px) {
 			width: 58%;
 		}
+
+		@media screen and (min-width: 1920px) {
+			width: 100%;
+		}
 	}
 }
