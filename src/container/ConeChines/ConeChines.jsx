@@ -9,8 +9,8 @@ function ConeChines() {
 		<section className="cone-chines app__wrapper">
 			<motion.div
 				className="cone-chines__container flex__center"
-				whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-				transition={{ duration: 0.5 }}
+				whileInView={{ opacity: [0, 1] }}
+				transition={{ duration: 1, delay: 0.1 }}
 			>
 				<div className="cone-chines__image">
 					<img src={images.cone_chines} alt="cone chinês" />

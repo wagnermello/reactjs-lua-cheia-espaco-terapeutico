@@ -13,6 +13,11 @@ import velas from "../assets/velas.png";
 import bg_secaotaro from "../assets/bg_secaotaro.jpg";
 import reiki from "../assets/reiki.png";
 import cone_chines from "../assets/cone_chines.png";
+import bg_secao_medicinasdafloresta from "../assets/bg_secao_medicinasdafloresta.jpg";
+import ayahuasca from "../assets/ayahuasca.png";
+import tambor_xamanico from "../assets/tambor_xamanico.png";
+import lua from "../assets/lua.png";
+import bg_cerimoniauniversalista from "../assets/bg_cerimoniauniversalista.png";
 
 export default {
 	logo,
@@ -30,4 +35,9 @@ export default {
 	bg_secaotaro,
 	reiki,
 	cone_chines,
+	bg_secao_medicinasdafloresta,
+	ayahuasca,
+	tambor_xamanico,
+	lua,
+	bg_cerimoniauniversalista,
 };

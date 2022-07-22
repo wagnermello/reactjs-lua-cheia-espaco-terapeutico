@@ -1,0 +1,18 @@
+.medicinas-floresta {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../../assets/bg_secao_medicinasdafloresta.jpg");
+	padding: 5rem 2rem 0rem !important;
+
+	.medicinas-floresta__container {
+		gap: 4rem;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	@media screen and (max-width: 900px) {
+		padding: 4rem 2rem !important;
+	}
+}
