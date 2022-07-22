@@ -11,9 +11,11 @@
 	padding: 5rem 2rem 0rem !important;
 
 	@media screen and (max-width: 900px) {
-		padding: 4rem 2rem !important;
-		background-image: rgb(197, 189, 255),
-			url("../../assets/bg_secaoatendimento.jpg");
+		background-image: linear-gradient(
+				rgb(232, 230, 255, 0.9),
+				rgb(232, 230, 255, 0.9)
+			),
+			url("../../assets/bg_secaoatendimento_mobile.jpg");
 	}
 
 	img {

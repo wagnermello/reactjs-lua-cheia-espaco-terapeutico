@@ -7,10 +7,12 @@ import whatsapp_icon from "../assets/whatsapp_icon.png";
 import facebook_icon from "../assets/facebook_icon.png";
 import instagram_icon from "../assets/instagram_icon.png";
 import bg_secaoatendimento from "../assets/bg_secaoatendimento.jpg";
+import bg_secaoatendimento_mobile from "../assets/bg_secaoatendimento_mobile.jpg";
 import icone_atendimento_online from "../assets/icone_atendimento_online.png";
 import icone_atendimento_presencial from "../assets/icone_atendimento_presencial.png";
 import velas from "../assets/velas.png";
 import bg_secaotaro from "../assets/bg_secaotaro.jpg";
+import bg_secaotaro_mobile from "../assets/bg_secaotaro_mobile.jpg";
 import reiki from "../assets/reiki.png";
 import cone_chines from "../assets/cone_chines.png";
 import bg_secao_medicinasdafloresta from "../assets/bg_secao_medicinasdafloresta.jpg";
@@ -18,6 +20,7 @@ import ayahuasca from "../assets/ayahuasca.png";
 import tambor_xamanico from "../assets/tambor_xamanico.png";
 import lua from "../assets/lua.png";
 import bg_cerimoniauniversalista from "../assets/bg_cerimoniauniversalista.jpg";
+import bg_cerimoniauniversalista_mobile from "../assets/bg_cerimoniauniversalista_mobile.jpg";
 
 export default {
 	logo,
@@ -29,10 +32,12 @@ export default {
 	facebook_icon,
 	instagram_icon,
 	bg_secaoatendimento,
+	bg_secaoatendimento_mobile,
 	icone_atendimento_online,
 	icone_atendimento_presencial,
 	velas,
 	bg_secaotaro,
+	bg_secaotaro_mobile,
 	reiki,
 	cone_chines,
 	bg_secao_medicinasdafloresta,
@@ -40,4 +45,5 @@ export default {
 	tambor_xamanico,
 	lua,
 	bg_cerimoniauniversalista,
+	bg_cerimoniauniversalista_mobile,
 };
