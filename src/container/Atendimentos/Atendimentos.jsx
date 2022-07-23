@@ -5,11 +5,8 @@ import "./Atendimentos.scss";
 
 function Atendimentos() {
 	return (
-		<section className="atendimentos app__wrapper" id="section-wrapper">
-			<div
-				className="atendimentos__container container__wrapper flex__column__center gap__y"
-				id="container-wrapper"
-			>
+		<section className="atendimentos app__wrapper">
+			<div className="atendimentos__container container__wrapper flex__column__center gap__y">
 				<motion.div
 					whileInView={{ opacity: [0, 1] }}
 					transition={{ duration: 1, delay: 0.1 }}

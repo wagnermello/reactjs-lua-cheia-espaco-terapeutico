@@ -1,4 +1,8 @@
 .medicinas-floresta {
+	@media screen and (min-width: 880px) {
+		margin-top: -4rem;
+	}
+
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-image: linear-gradient(
@@ -8,11 +12,6 @@
 			rgb(255, 255, 255)
 		),
 		url("../../assets/bg_secao_medicinasdafloresta.jpg");
-	padding: 5rem 0 0rem !important;
-
-	@media screen and (min-width: 880px) {
-		height: 100vh !important;
-	}
 
 	.medicinas-floresta__container {
 		img {

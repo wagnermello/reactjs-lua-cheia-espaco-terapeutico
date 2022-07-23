@@ -1,4 +1,8 @@
 .atendimentos {
+	@media screen and (min-width: 880px) {
+		margin-top: -4rem;
+	}
+
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-image: linear-gradient(
@@ -7,20 +11,12 @@
 		),
 		url("../../assets/bg_secaoatendimento.jpg");
 
-	@media screen and(min-width: 880px) {
-		padding: 5rem 0 0rem !important;
-	}
-
 	@media screen and (max-width: 880px) {
 		background-image: linear-gradient(
 				rgb(232, 230, 255, 0.9),
 				rgb(232, 230, 255, 0.9)
 			),
 			url("../../assets/bg_secaoatendimento_mobile.jpg");
-	}
-
-	@media screen and (min-width: 880px) {
-		height: 100vh !important;
 	}
 
 	img {

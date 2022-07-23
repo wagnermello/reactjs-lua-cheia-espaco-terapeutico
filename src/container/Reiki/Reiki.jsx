@@ -6,9 +6,8 @@ import "./Reiki.scss";
 
 function Reiki() {
 	return (
-		<section id="section-wrapper" className="reiki app__wrapper">
+		<section className="reiki app__wrapper">
 			<motion.div
-				id="container-wrapper"
 				className="reiki__container container__wrapper gap__x"
 				whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
 				transition={{ duration: 0.5 }}

@@ -6,9 +6,8 @@ import "./Benzimentos.scss";
 
 function Benzimentos() {
 	return (
-		<section className="benzimentos app__wrapper" id="section-wrapper">
+		<section className="benzimentos app__wrapper">
 			<motion.div
-				id="container-wrapper"
 				className="benzimentos__container container__wrapper flex__row__center gap__x"
 				whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
 				transition={{ duration: 0.5 }}

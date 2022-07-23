@@ -6,12 +6,8 @@ import "./CerimoniaUniversalista.scss";
 
 function CerimoniaUniversalista() {
 	return (
-		<section
-			className="cerimonia-universalista app__wrapper"
-			id="section-wrapper"
-		>
+		<section className="cerimonia-universalista app__wrapper">
 			<motion.div
-				id="container-wrapper"
 				className="cerimonia-universalista__container container__wrapper gap__x"
 				whileInView={{ opacity: [0, 1] }}
 				transition={{ duration: 1, delay: 0.1 }}
