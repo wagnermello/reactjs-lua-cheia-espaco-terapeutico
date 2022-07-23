@@ -6,7 +6,7 @@ import "./ConeChines.scss";
 
 function ConeChines() {
 	return (
-		<section className="cone-chines app__wrapper__light">
+		<section className="cone-chines app__soft-wrapper">
 			<motion.div
 				className="cone-chines__container container__wrapper gap__x"
 				whileInView={{ opacity: [0, 1] }}

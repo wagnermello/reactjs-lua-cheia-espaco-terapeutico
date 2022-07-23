@@ -1,3 +1,4 @@
+/*Section wrapper*/
 .app__wrapper {
 	height: 100vh;
 	padding: 4rem 0;
@@ -8,14 +9,23 @@
 	}
 }
 
-.app__wrapper__light {
+/*Section soft wrapper*/
+/*Use this one when container are bigger than VH on small screens*/
+.app__soft-wrapper {
 	height: 100%;
 	padding: 4rem 0;
 
 	@media screen and (max-width: 880px) {
 		padding: 4rem 1rem;
 	}
+
+	/*Adjust this one to return 100vh to wrap sections again*/
+	@media screen and /*>>>*/(min-width: 1680px) /*<<<*/ {
+		height: 100vh;
+	}
 }
+
+/*Section wrapper*/
 
 .container__wrapper {
 	display: flex;
@@ -55,25 +65,25 @@
 
 	@media screen and (min-width: 1920px) {
 		max-width: 1792px;
+	}
 
-		@media screen and (min-width: 2400px) {
-			max-width: 2144px;
-		}
+	@media screen and (min-width: 2400px) {
+		max-width: 2144px;
+	}
 
-		@media screen and (min-width: 2800px) {
-			max-width: 2144px;
-		}
+	@media screen and (min-width: 2800px) {
+		max-width: 2144px;
+	}
 
-		@media screen and (min-width: 2800px) {
-			max-width: 2544px;
-		}
+	@media screen and (min-width: 2800px) {
+		max-width: 2544px;
+	}
 
-		@media screen and (min-width: 3200px) {
-			max-width: 2688px;
-		}
+	@media screen and (min-width: 3200px) {
+		max-width: 2688px;
+	}
 
-		@media screen and (min-width: 4000px) {
-			max-width: 3872px;
-		}
+	@media screen and (min-width: 4000px) {
+		max-width: 3872px;
 	}
 }

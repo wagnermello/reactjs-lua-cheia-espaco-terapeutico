@@ -12,7 +12,7 @@ function ayahuasca() {
 				whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
 				transition={{ duration: 0.5 }}
 			>
-				<div className="ayahuasca__text-container flex__column__start gap__y">
+				<div className="ayahuasca__text-container flex__column__center gap__y">
 					<h1 className="title">Ayahuasca</h1>
 					<p className="p-text">
 						As cerimônias de AYAHUASCA no Lua Cheia têm uma abordagem

@@ -3,7 +3,7 @@
 		.reiki__text-container {
 			width: 50%;
 
-			@media screen and (max-width: 1280px) {
+			@media screen and (max-width: 1080px) {
 				width: 100%;
 				align-items: center;
 			}
@@ -11,7 +11,7 @@
 			img {
 				display: none;
 
-				@media screen and (max-width: 1280px) {
+				@media screen and (max-width: 1080px) {
 					display: flex;
 					width: 55%;
 				}
@@ -24,8 +24,9 @@
 
 		.reiki__image-container {
 			width: 50%;
+			margin: auto;
 
-			@media screen and (max-width: 1280px) {
+			@media screen and (max-width: 1080px) {
 				display: none;
 			}
 		}

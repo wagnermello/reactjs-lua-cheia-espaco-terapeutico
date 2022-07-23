@@ -5,7 +5,7 @@ import "./Instituto.scss";
 
 function Instituto() {
 	return (
-		<section className="instituto__container app__wrapper__light ">
+		<section className="instituto__container app__soft-wrapper ">
 			<motion.div
 				className="container__wrapper flex__row gap__x"
 				whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
