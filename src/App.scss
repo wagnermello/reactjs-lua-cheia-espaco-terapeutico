@@ -1,16 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+@import "./styles/AppFlex.scss";
+@import "./styles/AppFontSize.scss";
+@import "./styles/AppGap.scss";
+@import "./styles/AppWrapper.scss";
+
+/*----------BASE----------*/
+$font-base: "Montserrat", sans-serif;
+$medium-purple: #6750d6;
+$dark-purple-1: #190a4e;
+$dark-purple-2: #07031c;
+$light-purple-1: #e8e6ff;
+$light-purple-2: #c5bdff;
+$white-color: #ffffff;
+$gray-color: #777777;
+
+* {
+	font-family: "Montserrat", sans-serif;
+	color: $gray-color;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+a {
+	color: unset;
+	text-decoration: none;
+}
+/*----------BASE----------*/
+
+/*----------STYLES----------*/
 .app__bg {
-	background: var(--white-color);
+	background: $white-color;
 }
 
 .title {
 	font-size: 1.5rem;
-	color: var(--dark-purple-1);
+	color: $dark-purple-1;
 	font-weight: 600;
 }
 
 .title-white {
 	font-size: 1.5rem;
-	color: var(--white-color);
+	color: $white-color;
 	font-weight: 600;
 }
 
@@ -21,12 +55,12 @@
 
 .p-text-purple {
 	font-size: 1rem;
-	color: var(--dark-purple-1);
+	color: $dark-purple-1;
 }
 
 .p-text-purple-bold {
 	font-size: 1rem;
-	color: var(--dark-purple-1);
+	color: $dark-purple-1;
 	font-weight: 700;
 }
 
@@ -38,12 +72,12 @@
 
 .p-text-white {
 	font-size: 1rem;
-	color: var(--white-color);
+	color: $white-color;
 }
 
 .p-text-white-bold {
 	font-size: 1rem;
-	color: var(--white-color);
+	color: $white-color;
 	font-weight: 700;
 }
 
@@ -52,7 +86,7 @@ strong {
 }
 
 .button-purple {
-	color: var(--white-color);
+	color: $white-color;
 	font-size: 1rem;
 	font-weight: 600;
 	background-image: linear-gradient(#6750d6, #190a4e);
@@ -64,7 +98,7 @@ strong {
 }
 
 .button-white {
-	color: var(--medium-purple);
+	color: $medium-purple;
 	font-size: 1rem;
 	font-weight: 600;
 	background-color: (--white-color);
@@ -75,33 +109,9 @@ strong {
 	cursor: pointer;
 }
 
-/*----------min-width: 1920px (large screens)----------*/
-
-b {
-	@media screen and(min-width: 1920px) {
-		font-size: 1.25rem !important;
-	}
-}
-
-strong {
-	@media screen and(min-width: 1920px) {
-		font-size: 1.25rem !important;
-	}
-}
-
-h1 {
-	@media screen and(min-width: 1920px) {
-		font-size: 2rem !important;
-	}
-}
-
 button {
-	@media screen and(min-width: 1920px) {
-		font-size: 1.25rem !important;
-	}
-
 	@media screen and (max-width: 880px) {
 		width: 100%;
-		font-size: 1rem;
 	}
 }
+/*----------STYLES----------*/

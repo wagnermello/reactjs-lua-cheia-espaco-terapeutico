@@ -1,3 +1,5 @@
+@import "../../App.scss";
+
 .navbar {
 	position: fixed;
 	width: 100%;
@@ -6,7 +8,7 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 1rem 2rem;
-	background-color: var(--white-color);
+	background-color: $white-color;
 	box-shadow: 4px 4px 4px rgb(00, 00, 00, 0.06);
 	z-index: 10;
 
@@ -19,11 +21,11 @@
 		margin-left: 2rem;
 		text-decoration: none;
 		text-transform: uppercase;
-		color: var(--gray-color);
+		color: $gray-color;
 		transition: all 0.2s;
 
 		&:hover {
-			color: var(--medium-purple);
+			color: var $medium-purple;
 		}
 
 		@media screen and (min-width: 1920px) {

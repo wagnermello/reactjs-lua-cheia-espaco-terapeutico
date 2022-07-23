@@ -2,11 +2,7 @@ import React from "react";
 import { Navbar } from "./components";
 
 import "./App.scss";
-import "./AppWrapper.scss";
-import "./AppFlex.scss";
-import "./AppFontSize.scss";
-import "./AppGap.scss";
-import "./Base.css";
+
 import RoutesApp from "./router";
 
 const App = () => {
