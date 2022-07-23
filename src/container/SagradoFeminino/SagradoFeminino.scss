@@ -1,0 +1,26 @@
+$light-purple-1: #e8e6ff;
+
+.sagrado-feminino {
+	background: $light-purple-1;
+	.sagrado-feminino__text-container {
+		width: 50%;
+
+		@media screen and(max-width: 880px) {
+			width: 100%;
+			text-align: left;
+		}
+
+		img {
+			display: none;
+			@media screen and(max-width: 880px) {
+				display: flex;
+			}
+		}
+	}
+	.sagrado-feminino__image-container {
+		width: 50%;
+		@media screen and(max-width: 880px) {
+			display: none;
+		}
+	}
+}

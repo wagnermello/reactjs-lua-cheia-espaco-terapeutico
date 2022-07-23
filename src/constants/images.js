@@ -21,6 +21,8 @@ import tambor_xamanico from "../assets/tambor_xamanico.png";
 import lua from "../assets/lua.png";
 import bg_cerimoniauniversalista from "../assets/bg_cerimoniauniversalista.jpg";
 import bg_cerimoniauniversalista_mobile from "../assets/bg_cerimoniauniversalista_mobile.jpg";
+import sagrado_feminino from "../assets/sagrado_feminino.png";
+import rape from "../assets/rape.png";
 
 export default {
 	logo,
@@ -46,4 +48,6 @@ export default {
 	lua,
 	bg_cerimoniauniversalista,
 	bg_cerimoniauniversalista_mobile,
+	sagrado_feminino,
+	rape,
 };

@@ -1,7 +1,8 @@
 import React from "react";
+import Localizacao from "../../container/Localizacao/Localizacao";
 
 function LocalizacaoPage() {
-	return <div>LocalizacaoPage</div>;
+	return <Localizacao />;
 }
 
 export default LocalizacaoPage;

@@ -12,7 +12,7 @@ function Reiki() {
 				whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
 				transition={{ duration: 0.5 }}
 			>
-				<div className="reiki__text-container flex__column__start gap__y">
+				<div className="reiki__text-container flex__column__center gap__y">
 					<h1 className="title">Reiki</h1>
 					<img src={images.reiki} alt="reiki" />
 					<p className="p-text">
