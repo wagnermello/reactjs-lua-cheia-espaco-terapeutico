@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function LocalizacaoPage() {
-  return (
-    <div>LocalizacaoPage</div>
-  )
+	return <div>LocalizacaoPage</div>;
 }
 
-export default LocalizacaoPage
+export default LocalizacaoPage;

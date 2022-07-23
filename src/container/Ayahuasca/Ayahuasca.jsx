@@ -6,9 +6,10 @@ import "./Ayahuasca.scss";
 
 function ayahuasca() {
 	return (
-		<section className="ayahuasca app__wrapper">
+		<section className="ayahuasca app__wrapper" id="section-wrapper">
 			<motion.div
 				className="ayahuasca__container container__wrapper gap__x"
+				id="container-wrapper"
 				whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
 				transition={{ duration: 0.5 }}
 			>

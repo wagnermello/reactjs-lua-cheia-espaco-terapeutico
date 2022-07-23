@@ -1,4 +1,78 @@
 p {
-	font-size: 1rem;
-	line-height: 2rem;
+	/*----------Change these values if you want----------*/
+	$p-font-size: 16px;
+	$p-line-height: 32px;
+	/*------------------------------------------------------*/
+
+	font-size: $p-font-size !important;
+	line-height: $p-line-height !important;
+
+	@media screen and (min-width: 1920px) {
+		font-size: $p-font-size * 1.5 !important;
+		line-height: $p-line-height * 1.5 !important;
+	}
+
+	@media screen and (min-width: 2560px) {
+		font-size: $p-font-size * 1.75 !important;
+		line-height: $p-line-height * 1.75 !important;
+	}
+}
+
+h1 {
+	/*----------Change this value if you want----------*/
+	$h-font-size: 24px;
+	/*------------------------------------------------------*/
+
+	font-size: $h-font-size;
+
+	@media screen and (min-width: 1920px) {
+		font-size: $h-font-size * 1.5 !important;
+	}
+	@media screen and (min-width: 2560px) {
+		font-size: $h-font-size * 1.75 !important;
+	}
+}
+
+button {
+	/*----------Change this value if you want----------*/
+	$button-font-size: 16px;
+	/*------------------------------------------------------*/
+
+	font-size: $button-font-size;
+
+	@media screen and (min-width: 1920px) {
+		font-size: $button-font-size * 1.5 !important;
+	}
+	@media screen and (min-width: 2560px) {
+		font-size: $button-font-size * 1.75 !important;
+	}
+}
+
+span {
+	/*----------Change this value if you want----------*/
+	$span-font-size: 16px;
+	/*------------------------------------------------------*/
+	font-size: $span-font-size;
+
+	@media screen and (min-width: 1920px) {
+		font-size: $span-font-size * 1.5 !important;
+	}
+	@media screen and (min-width: 2560px) {
+		font-size: $span-font-size * 1.75 !important;
+	}
+}
+
+b {
+	/*----------Change this value if you want----------*/
+	$bold-font-size: 16px;
+	/*------------------------------------------------------*/
+
+	font-size: $bold-font-size;
+
+	@media screen and (min-width: 1920px) {
+		font-size: $bold-font-size * 1.5 !important;
+	}
+	@media screen and (min-width: 2560px) {
+		font-size: $bold-font-size * 1.75 !important;
+	}
 }

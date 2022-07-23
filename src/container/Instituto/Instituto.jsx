@@ -5,8 +5,9 @@ import "./Instituto.scss";
 
 function Instituto() {
 	return (
-		<section className="instituto__container app__soft-wrapper ">
+		<section id="section-wrapper" className="instituto__container app__wrapper">
 			<motion.div
+				id="container-wrapper"
 				className="container__wrapper flex__row gap__x"
 				whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
 				transition={{ duration: 0.5 }}
@@ -14,7 +15,10 @@ function Instituto() {
 				<div className="instituto__image-container flex__column__center responsive__container  ">
 					<img src={images.maraca} alt="maracas xamânicas" />
 				</div>
-				<div className="instituto__text-container flex__column__start gap__y ">
+				<div
+					id="test"
+					className="instituto__text-container flex__column__start gap__y "
+				>
 					<h1 className="title">Instituto Espiritual Xamânico Lua Cheia</h1>
 					<p className="p-text">
 						O <strong>Lua Cheia Espaço Terapêutico</strong> surgiu em 2017 do

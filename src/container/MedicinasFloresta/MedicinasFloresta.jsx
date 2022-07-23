@@ -6,8 +6,9 @@ import "./MedicinasFloresta.scss";
 
 function MedicinasFloresta() {
 	return (
-		<section className="medicinas-floresta app__wrapper">
+		<section id="section-wrapper" className="medicinas-floresta app__wrapper">
 			<motion.div
+				id="container-wrapper"
 				className="medicinas-floresta__container flex__column__center	 container__wrapper gap__y"
 				whileInView={{ opacity: [0, 1] }}
 				transition={{ duration: 1, delay: 0.1 }}
