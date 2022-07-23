@@ -1,0 +1,14 @@
+.gap__y {
+	gap: 2rem 0;
+
+	@media screen and (min-width: 1080px) {
+		gap: 2rem 0;
+	}
+
+	@media screen and (min-width: 1366px) {
+		gap: 2rem 0;
+	}
+}
+.gap__x {
+	gap: 0 4rem;
+}

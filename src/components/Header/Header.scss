@@ -7,10 +7,11 @@
 	background-repeat: no-repeat;
 	background-image: linear-gradient(rgb(103, 80, 214, 09), rgba(7, 3, 28, 0.9)),
 		url("../../assets/header_bg.jpg");
-	padding: 5rem 2rem 0rem !important;
+	padding: 5rem 0 0rem !important;
 
-	@media screen and (max-width: 900px) {
-		padding: 4rem 2rem !important;
+	@media screen and (max-width: 880px) {
+		padding: 4rem 0 !important;
+
 		background-image: linear-gradient(
 				rgb(103, 80, 214, 09),
 				rgba(7, 3, 28, 0.9)
@@ -18,13 +19,21 @@
 			url("../../assets/header_bg_mobile.jpg");
 	}
 
+	@media screen and (min-width: 880px) {
+		height: 100vh !important;
+	}
+
 	.header__logo {
-		@media screen and (max-width: 900px) {
+		@media screen and (max-width: 880px) {
 			width: 58%;
 		}
 
 		@media screen and (min-width: 1920px) {
-			width: 100%;
+			width: 240px;
+		}
+
+		@media screen and (min-width: 3200px) {
+			width: 480px;
 		}
 	}
 }

@@ -14,14 +14,11 @@
 	}
 
 	.taro__container {
-		gap: 4rem;
-		text-align: center;
 		width: 50%;
-		@media screen and (max-width: 1200px) {
-			width: 75%;
-		}
-		@media screen and (max-width: 900px) {
+
+		@media screen and (max-width: 880px) {
 			text-align: start;
+			align-items: center;
 			width: 100%;
 		}
 	}

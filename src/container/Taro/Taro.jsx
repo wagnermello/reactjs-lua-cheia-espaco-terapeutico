@@ -7,7 +7,7 @@ function Taro() {
 	return (
 		<section className="taro app__wrapper">
 			<motion.div
-				className="taro__container flex__center__column"
+				className="taro__container flex__column__center container__wrapper gap__y"
 				whileInView={{ opacity: [0, 1] }}
 				transition={{ duration: 1, delay: 0.1 }}
 			>

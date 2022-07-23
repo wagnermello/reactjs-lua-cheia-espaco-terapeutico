@@ -6,16 +6,16 @@ import "./ConeChines.scss";
 
 function ConeChines() {
 	return (
-		<section className="cone-chines app__wrapper">
+		<section className="cone-chines app__wrapper__light">
 			<motion.div
-				className="cone-chines__container flex__center"
+				className="cone-chines__container container__wrapper gap__x"
 				whileInView={{ opacity: [0, 1] }}
 				transition={{ duration: 1, delay: 0.1 }}
 			>
-				<div className="cone-chines__image">
+				<div className="cone-chines__image-container flex__column__center">
 					<img src={images.cone_chines} alt="cone chinês" />
 				</div>
-				<div className="cone-chines__text">
+				<div className="cone-chines__text-container flex__column__start gap__y">
 					<h1 className="title">Cone Chinês</h1>
 					<img src={images.cone_chines} alt="cone chinês" />
 					<p className="p-text">

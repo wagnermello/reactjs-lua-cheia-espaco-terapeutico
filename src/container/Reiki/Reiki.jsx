@@ -8,11 +8,11 @@ function Reiki() {
 	return (
 		<section className="reiki app__wrapper">
 			<motion.div
-				className="reiki__container flex__center"
+				className="reiki__container container__wrapper gap__x"
 				whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
 				transition={{ duration: 0.5 }}
 			>
-				<div className="reiki__text">
+				<div className="reiki__text-container flex__column__start gap__y">
 					<h1 className="title">Reiki</h1>
 					<img src={images.reiki} alt="reiki" />
 					<p className="p-text">
@@ -25,7 +25,7 @@ function Reiki() {
 					</p>
 					<button className="button-purple">AGENDAR REIKI</button>
 				</div>
-				<div className="reiki__image">
+				<div className="reiki__image-container flex__column__center">
 					<img src={images.reiki} alt="reiki" />
 				</div>
 			</motion.div>

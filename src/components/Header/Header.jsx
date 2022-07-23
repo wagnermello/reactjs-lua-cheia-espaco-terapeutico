@@ -8,7 +8,7 @@ function Header() {
 	return (
 		<div className="header app__wrapper">
 			<motion.div
-				className="flex__center"
+				className="flex__column__center"
 				whileInView={{ opacity: [0, 1] }}
 				transition={{ duration: 1, delay: 0.1 }}
 			>

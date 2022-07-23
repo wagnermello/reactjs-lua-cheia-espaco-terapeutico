@@ -1,6 +1,4 @@
 .atendimentos {
-	gap: 4rem;
-	text-align: center !important;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-image: linear-gradient(
@@ -8,9 +6,12 @@
 			rgb(232, 230, 255, 0.9)
 		),
 		url("../../assets/bg_secaoatendimento.jpg");
-	padding: 5rem 2rem 0rem !important;
 
-	@media screen and (max-width: 900px) {
+	@media screen and(min-width: 880px) {
+		padding: 5rem 0 0rem !important;
+	}
+
+	@media screen and (max-width: 880px) {
 		background-image: linear-gradient(
 				rgb(232, 230, 255, 0.9),
 				rgb(232, 230, 255, 0.9)
@@ -18,8 +19,12 @@
 			url("../../assets/bg_secaoatendimento_mobile.jpg");
 	}
 
+	@media screen and (min-width: 880px) {
+		height: 100vh !important;
+	}
+
 	img {
 		width: 65%;
-		margin: 0 2rem 1rem 2rem;
+		margin: 0 2rem;
 	}
 }

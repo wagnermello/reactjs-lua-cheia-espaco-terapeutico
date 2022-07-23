@@ -8,7 +8,7 @@ function MedicinasFloresta() {
 	return (
 		<section className="medicinas-floresta app__wrapper">
 			<motion.div
-				className="medicinas-floresta__container flex__center__column"
+				className="medicinas-floresta__container flex__column__center	 container__wrapper gap__y"
 				whileInView={{ opacity: [0, 1] }}
 				transition={{ duration: 1, delay: 0.1 }}
 			>

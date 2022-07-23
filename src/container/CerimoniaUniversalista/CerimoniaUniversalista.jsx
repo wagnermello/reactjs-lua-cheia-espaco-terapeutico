@@ -7,11 +7,15 @@ import "./CerimoniaUniversalista.scss";
 function CerimoniaUniversalista() {
 	return (
 		<section className="cerimonia-universalista app__wrapper">
-			<motion.div className="cerimonia-universalista__container">
-				<div className="cerimonia-universalisa__image-container">
+			<motion.div
+				className="cerimonia-universalista__container container__wrapper gap__x"
+				whileInView={{ opacity: [0, 1] }}
+				transition={{ duration: 1, delay: 0.1 }}
+			>
+				<div className="cerimonia-universalisa__image-container flex__column__center">
 					<img src={images.lua} alt="lua" />
 				</div>
-				<div className="cerimonia-universalista__text">
+				<div className="cerimonia-universalista__text-container flex__column__start gap__y">
 					<h1 className="title-white">Cerimônia Universalista</h1>
 					<img src={images.lua} alt="lua" />
 

@@ -8,14 +8,14 @@ function Benzimentos() {
 	return (
 		<section className="benzimentos app__wrapper">
 			<motion.div
-				className="benzimentos__container flex__center"
+				className="benzimentos__container container__wrapper flex__row__center gap__x"
 				whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
 				transition={{ duration: 0.5 }}
 			>
-				<div className="benzimentos__image">
+				<div className="benzimentos__image-container">
 					<img src={images.velas} alt="velas" />
 				</div>
-				<div className="benzimentos__text">
+				<div className="benzimentos__text-container flex__column__start gap__y">
 					<h1 className="title">Passes e Benzimentos</h1>
 					<img src={images.velas} alt="velas" />
 					<p className="p-text">

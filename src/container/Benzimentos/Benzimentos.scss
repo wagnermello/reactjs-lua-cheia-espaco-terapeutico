@@ -1,47 +1,23 @@
 .benzimentos {
 	.benzimentos__container {
-		display: flex;
-		justify-content: center;
-		flex-direction: row;
-		align-items: center;
-		gap: 0 4rem;
-
-		.benzimentos__image {
-			@media screen and (max-width: 900px) {
+		.benzimentos__image-container {
+			@media screen and (max-width: 880px) {
 				display: none;
-				padding-left: 0;
 			}
 		}
 
-		.benzimentos__text {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: flex-start;
+		.benzimentos__text-container {
 			width: 50%;
-			gap: 4rem;
-			padding-right: 2rem;
 
-			@media screen and (max-width: 1200px) {
-				gap: 2rem;
-			}
-
-			@media screen and (max-width: 900px) {
+			@media screen and (max-width: 880px) {
 				width: 100%;
 				align-items: center;
-				gap: 4rem;
-			}
-
-			h1 {
-				@media screen and (max-width: 900px) {
-					text-align: center;
-				}
 			}
 
 			img {
 				display: none;
 
-				@media screen and (max-width: 900px) {
+				@media screen and (max-width: 880px) {
 					display: flex;
 				}
 			}

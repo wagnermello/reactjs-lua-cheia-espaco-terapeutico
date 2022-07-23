@@ -1,63 +1,5 @@
-section {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
 .app__bg {
 	background: var(--white-color);
-}
-
-.app__wrapper {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	padding: 5rem 8rem;
-
-	@media screen and(min-width: 1920px) {
-		padding: 5rem 16rem;
-	}
-
-	@media screen and (max-width: 1480px) {
-		padding: 4rem 4rem;
-	}
-
-	@media screen and (max-width: 1200px) {
-		padding: 4rem 1rem;
-	}
-
-	@media screen and (max-width: 900px) {
-		height: 100%;
-		padding: 4rem 1rem;
-	}
-}
-
-.flex__start {
-	display: flex;
-	flex-direction: column;
-	justify-content: start;
-	align-items: center;
-}
-
-.flex__center__row {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
-
-.flex__center__column {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.flex__center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .title {
@@ -119,11 +61,6 @@ strong {
 	text-transform: uppercase;
 	padding: 1rem 2rem;
 	cursor: pointer;
-
-	@media screen and (max-width: 1080px) {
-		width: 100%;
-		font-size: 1rem;
-	}
 }
 
 .button-white {
@@ -136,21 +73,9 @@ strong {
 	text-transform: uppercase;
 	padding: 1rem 2rem;
 	cursor: pointer;
-
-	@media screen and (max-width: 1080px) {
-		width: 100%;
-		font-size: 1rem;
-	}
 }
 
 /*----------min-width: 1920px (large screens)----------*/
-
-p {
-	line-height: 2rem;
-	@media screen and(min-width: 1920px) {
-		font-size: 1.25rem !important;
-	}
-}
 
 b {
 	@media screen and(min-width: 1920px) {
@@ -173,5 +98,10 @@ h1 {
 button {
 	@media screen and(min-width: 1920px) {
 		font-size: 1.25rem !important;
+	}
+
+	@media screen and (max-width: 880px) {
+		width: 100%;
+		font-size: 1rem;
 	}
 }
