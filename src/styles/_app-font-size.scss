@@ -2,49 +2,43 @@ p {
 	/*----------Change these values if you want----------*/
 	$p-font-size: 16px;
 	$p-line-height: 32px;
+
 	/*------------------------------------------------------*/
 
 	font-size: $p-font-size !important;
 	line-height: $p-line-height !important;
 
 	@media screen and (min-width: 1920px) {
-		font-size: $p-font-size * 1.5 !important;
-		line-height: $p-line-height * 1.5 !important;
+		font-size: $p-font-size * 1.4 !important;
+		line-height: $p-line-height * 1.4 !important;
 	}
 
 	@media screen and (min-width: 2560px) {
-		font-size: $p-font-size * 1.75 !important;
-		line-height: $p-line-height * 1.75 !important;
+		font-size: $p-font-size * 1.875 !important;
+		line-height: $p-line-height * 1.875 !important;
+	}
+
+	@media screen and (min-width: 3680px) {
+		font-size: $p-font-size * 2.7 !important;
+		line-height: $p-line-height * 2.7 !important;
 	}
 }
 
 h1 {
 	/*----------Change this value if you want----------*/
-	$h-font-size: 24px;
+	$h1-font-size: 24px;
 	/*------------------------------------------------------*/
 
-	font-size: $h-font-size;
+	font-size: $h1-font-size;
 
 	@media screen and (min-width: 1920px) {
-		font-size: $h-font-size * 1.5 !important;
+		font-size: $h1-font-size * 1.4 !important;
 	}
 	@media screen and (min-width: 2560px) {
-		font-size: $h-font-size * 1.75 !important;
+		font-size: $h1-font-size * 1.875 !important;
 	}
-}
-
-button {
-	/*----------Change this value if you want----------*/
-	$button-font-size: 16px;
-	/*------------------------------------------------------*/
-
-	font-size: $button-font-size;
-
-	@media screen and (min-width: 1920px) {
-		font-size: $button-font-size * 1.5 !important;
-	}
-	@media screen and (min-width: 2560px) {
-		font-size: $button-font-size * 1.75 !important;
+	@media screen and (min-width: 3840px) {
+		font-size: $h1-font-size * 2.7 !important;
 	}
 }
 
@@ -55,10 +49,13 @@ span {
 	font-size: $span-font-size;
 
 	@media screen and (min-width: 1920px) {
-		font-size: $span-font-size * 1.5 !important;
+		font-size: $span-font-size * 1.4 !important;
 	}
 	@media screen and (min-width: 2560px) {
-		font-size: $span-font-size * 1.75 !important;
+		font-size: $span-font-size * 1.875 !important;
+	}
+	@media screen and (min-width: 3840px) {
+		font-size: $span-font-size * 2.7 !important;
 	}
 }
 
@@ -70,9 +67,12 @@ b {
 	font-size: $bold-font-size;
 
 	@media screen and (min-width: 1920px) {
-		font-size: $bold-font-size * 1.5 !important;
+		font-size: $bold-font-size * 1.4 !important;
 	}
 	@media screen and (min-width: 2560px) {
-		font-size: $bold-font-size * 1.75 !important;
+		font-size: $bold-font-size * 1.875 !important;
+	}
+	@media screen and (min-width: 3840px) {
+		font-size: $bold-font-size * 2.7 !important;
 	}
 }

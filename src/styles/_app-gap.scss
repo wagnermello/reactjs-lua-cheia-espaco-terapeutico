@@ -6,7 +6,15 @@
 	gap: $gapY 0;
 
 	@media screen and (min-width: 1920px) {
-		gap: ($gapY * 1.5) 0;
+		gap: ($gapY * 1.4) 0;
+	}
+
+	@media screen and (min-width: 2560px) {
+		gap: ($gapY * 1.875) 0;
+	}
+
+	@media screen and (min-width: 3680px) {
+		gap: ($gapY * 2.7) 0;
 	}
 }
 
@@ -19,5 +27,13 @@
 
 	@media screen and (min-width: 1920px) {
 		gap: 0 ($gapX * 1.5);
+	}
+
+	@media screen and (min-width: 2560px) {
+		gap: 0 ($gapX * 1.875);
+	}
+
+	@media screen and (min-width: 3680px) {
+		gap: 0 ($gapX * 2.7);
 	}
 }

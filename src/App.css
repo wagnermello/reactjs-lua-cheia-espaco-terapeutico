@@ -1,5 +1,34 @@
-/*----------FLEX-COLUMN----------*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+button {
+  /*----------Change this value if you want----------*/
+  /*------------------------------------------------------*/
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+@media screen and (min-width: 1920px) {
+  button {
+    font-size: 22.4px !important;
+    border-radius: 11.2px !important;
+    padding: 22.4px 44.8px;
+  }
+}
+@media screen and (min-width: 2560px) {
+  button {
+    font-size: 30px !important;
+    border-radius: 15px !important;
+    padding: 30px 60px;
+  }
+}
+@media screen and (min-width: 3840px) {
+  button {
+    font-size: 43.2px !important;
+    border-radius: 21.6px !important;
+    padding: 43.2px 86.4px;
+  }
+}
+
+/*----------FLEX-COLUMN----------*/
 .flex__column {
   display: flex;
   flex-direction: column;
@@ -64,14 +93,20 @@ p {
 }
 @media screen and (min-width: 1920px) {
   p {
-    font-size: 24px !important;
-    line-height: 48px !important;
+    font-size: 22.4px !important;
+    line-height: 44.8px !important;
   }
 }
 @media screen and (min-width: 2560px) {
   p {
-    font-size: 28px !important;
-    line-height: 56px !important;
+    font-size: 30px !important;
+    line-height: 60px !important;
+  }
+}
+@media screen and (min-width: 3680px) {
+  p {
+    font-size: 43.2px !important;
+    line-height: 86.4px !important;
   }
 }
 
@@ -82,28 +117,17 @@ h1 {
 }
 @media screen and (min-width: 1920px) {
   h1 {
-    font-size: 36px !important;
+    font-size: 33.6px !important;
   }
 }
 @media screen and (min-width: 2560px) {
   h1 {
-    font-size: 42px !important;
+    font-size: 45px !important;
   }
 }
-
-button {
-  /*----------Change this value if you want----------*/
-  /*------------------------------------------------------*/
-  font-size: 16px;
-}
-@media screen and (min-width: 1920px) {
-  button {
-    font-size: 24px !important;
-  }
-}
-@media screen and (min-width: 2560px) {
-  button {
-    font-size: 28px !important;
+@media screen and (min-width: 3840px) {
+  h1 {
+    font-size: 64.8px !important;
   }
 }
 
@@ -114,12 +138,17 @@ span {
 }
 @media screen and (min-width: 1920px) {
   span {
-    font-size: 24px !important;
+    font-size: 22.4px !important;
   }
 }
 @media screen and (min-width: 2560px) {
   span {
-    font-size: 28px !important;
+    font-size: 30px !important;
+  }
+}
+@media screen and (min-width: 3840px) {
+  span {
+    font-size: 43.2px !important;
   }
 }
 
@@ -130,12 +159,17 @@ b {
 }
 @media screen and (min-width: 1920px) {
   b {
-    font-size: 24px !important;
+    font-size: 22.4px !important;
   }
 }
 @media screen and (min-width: 2560px) {
   b {
-    font-size: 28px !important;
+    font-size: 30px !important;
+  }
+}
+@media screen and (min-width: 3840px) {
+  b {
+    font-size: 43.2px !important;
   }
 }
 
@@ -146,7 +180,17 @@ b {
 }
 @media screen and (min-width: 1920px) {
   .gap__y {
-    gap: 48px 0;
+    gap: 44.8px 0;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .gap__y {
+    gap: 60px 0;
+  }
+}
+@media screen and (min-width: 3680px) {
+  .gap__y {
+    gap: 86.4px 0;
   }
 }
 
@@ -158,6 +202,16 @@ b {
 @media screen and (min-width: 1920px) {
   .gap__x {
     gap: 0 96px;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .gap__x {
+    gap: 0 120px;
+  }
+}
+@media screen and (min-width: 3680px) {
+  .gap__x {
+    gap: 0 172.8px;
   }
 }
 
@@ -189,7 +243,7 @@ b {
 }
 @media screen and (min-width: 881px) {
   .container__wrapper {
-    max-width: 1016px;
+    max-width: 817px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -214,17 +268,17 @@ b {
 }
 @media screen and (min-width: 1920px) {
   .container__wrapper {
-    max-width: 1792px;
+    max-width: 1830.4px;
   }
 }
 @media screen and (min-width: 2560px) {
   .container__wrapper {
-    max-width: 2304px;
+    max-width: 2440px;
   }
 }
 @media screen and (min-width: 3840px) {
   .container__wrapper {
-    max-width: 3520px;
+    max-width: 3667.2px;
   }
 }
 
@@ -304,25 +358,19 @@ strong {
 
 .button-purple {
   color: #ffffff;
-  font-size: 1rem;
   font-weight: 600;
   background-image: linear-gradient(#6750d6, #190a4e);
   border: none;
-  border-radius: 8px;
   text-transform: uppercase;
-  padding: 1rem 2rem;
   cursor: pointer;
 }
 
 .button-white {
   color: #6750d6;
-  font-size: 1rem;
   font-weight: 600;
   background-color: #ffffff;
   border: none;
-  border-radius: 8px;
   text-transform: uppercase;
-  padding: 1rem 2rem;
   cursor: pointer;
 }
 
