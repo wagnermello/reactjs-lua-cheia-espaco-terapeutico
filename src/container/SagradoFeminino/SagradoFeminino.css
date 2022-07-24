@@ -1,0 +1,29 @@
+/*----------COLOR-PALLETE----------*/
+.sagrado-feminino {
+  background: #e8e6ff;
+}
+.sagrado-feminino .sagrado-feminino__text-container {
+  width: 50%;
+}
+@media screen and (max-width: 880px) {
+  .sagrado-feminino .sagrado-feminino__text-container {
+    width: 100%;
+    text-align: left;
+  }
+}
+.sagrado-feminino .sagrado-feminino__text-container img {
+  display: none;
+}
+@media screen and (max-width: 880px) {
+  .sagrado-feminino .sagrado-feminino__text-container img {
+    display: flex;
+  }
+}
+.sagrado-feminino .sagrado-feminino__image-container {
+  width: 50%;
+}
+@media screen and (max-width: 880px) {
+  .sagrado-feminino .sagrado-feminino__image-container {
+    display: none;
+  }
+}/*# sourceMappingURL=SagradoFeminino.css.map */

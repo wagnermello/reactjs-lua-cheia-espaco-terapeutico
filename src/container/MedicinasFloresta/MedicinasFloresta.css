@@ -1,0 +1,13 @@
+.medicinas-floresta {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(255, 255, 255)), url("../../assets/bg_secao_medicinasdafloresta.jpg");
+}
+@media screen and (min-width: 880px) {
+  .medicinas-floresta {
+    margin-top: -4rem;
+  }
+}
+.medicinas-floresta .medicinas-floresta__container img {
+  width: 50%;
+}/*# sourceMappingURL=MedicinasFloresta.css.map */

@@ -1,20 +1,30 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import images from "../../constants/images";
 import "./Navbar.scss";
 
 const Navbar = () => {
 	return (
-		<div className="navbar">
+		<nav className="navbar">
 			<img src={images.logo} alt="Espaço Terapêutico Lua Cheia" />
 			<div>
-				<Link to="/">Home</Link>
-				<Link to="/atendimentos">Atendimentos</Link>
-				<Link to="/medicinas-da-floresta">Medicinas da Floresta</Link>
-				<Link to="/localizacao">Localização</Link>
-				<Link to="#footer">Contato</Link>
+				<NavLink to="/" activeClassName="active-link">
+					Home
+				</NavLink>
+				<NavLink to="/atendimentos" activeClassName="active-link">
+					Atendimentos
+				</NavLink>
+				<NavLink to="/medicinas-da-floresta" activeClassName="active-link">
+					Medicinas da Floresta
+				</NavLink>
+				<NavLink to="/localizacao" activeClassName="active-link">
+					Localização
+				</NavLink>
+				<NavLink to="#footer" activeClassName="active-link">
+					Contato
+				</NavLink>
 			</div>
-		</div>
+		</nav>
 	);
 };
 

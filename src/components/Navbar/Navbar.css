@@ -1,0 +1,44 @@
+/*----------COLOR-PALLETE----------*/
+.navbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.06);
+  z-index: 10;
+}
+@media screen and (max-width: 880px) {
+  .navbar {
+    display: none;
+  }
+}
+.navbar a {
+  font-size: 0.75rem;
+  margin-left: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #777777;
+  transition: all 0.2s;
+}
+.navbar a:hover {
+  color: var #6750d6;
+}
+@media screen and (min-width: 1920px) {
+  .navbar a {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 3200px) {
+  .navbar a {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .navbar img {
+    width: 10%;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

@@ -1,0 +1,17 @@
+.instituto__image-container {
+  width: 40%;
+}
+@media screen and (max-width: 1080px) {
+  .instituto__image-container {
+    display: none !important;
+  }
+}
+
+.instituto__text-container {
+  width: 60%;
+}
+@media screen and (max-width: 1080px) {
+  .instituto__text-container {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Instituto.css.map */

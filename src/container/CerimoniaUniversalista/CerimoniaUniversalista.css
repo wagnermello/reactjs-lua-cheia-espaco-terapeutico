@@ -1,0 +1,35 @@
+.cerimonia-universalista {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgb(103, 80, 214), rgba(7, 3, 28, 0.9)), url("../../assets/bg_cerimoniauniversalista.jpg");
+}
+@media screen and (max-width: 880px) {
+  .cerimonia-universalista {
+    background-image: linear-gradient(rgb(103, 80, 214), rgba(7, 3, 28, 0.9)), url("../../assets/bg_cerimoniauniversalista_mobile.jpg");
+  }
+}
+.cerimonia-universalista .cerimonia-universalista__container .cerimonia-universalisa__image-container {
+  width: 40%;
+}
+.cerimonia-universalista .cerimonia-universalista__container .cerimonia-universalisa__image-container img {
+  width: 75%;
+  margin-top: 0.5rem;
+}
+@media screen and (max-width: 880px) {
+  .cerimonia-universalista .cerimonia-universalista__container .cerimonia-universalisa__image-container {
+    display: none;
+  }
+}
+.cerimonia-universalista .cerimonia-universalista__container .cerimonia-universalista__text-container {
+  width: 60%;
+}
+.cerimonia-universalista .cerimonia-universalista__container .cerimonia-universalista__text-container img {
+  display: none;
+}
+@media screen and (max-width: 880px) {
+  .cerimonia-universalista .cerimonia-universalista__container .cerimonia-universalista__text-container {
+    width: 100%;
+    align-items: center;
+  }
+}/*# sourceMappingURL=CerimoniaUniversalista.css.map */

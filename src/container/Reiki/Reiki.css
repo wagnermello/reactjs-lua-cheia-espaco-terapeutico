@@ -1,0 +1,32 @@
+.reiki .reiki__container .reiki__text-container {
+  width: 50%;
+}
+@media screen and (max-width: 1080px) {
+  .reiki .reiki__container .reiki__text-container {
+    width: 100%;
+    align-items: center;
+  }
+}
+.reiki .reiki__container .reiki__text-container img {
+  display: none;
+}
+@media screen and (max-width: 1080px) {
+  .reiki .reiki__container .reiki__text-container img {
+    display: flex;
+    width: 55%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .reiki .reiki__container .reiki__text-container img {
+    width: 100%;
+  }
+}
+.reiki .reiki__container .reiki__image-container {
+  width: 50%;
+  margin: auto;
+}
+@media screen and (max-width: 1080px) {
+  .reiki .reiki__container .reiki__image-container {
+    display: none;
+  }
+}/*# sourceMappingURL=Reiki.css.map */

@@ -1,0 +1,14 @@
+.localizacao .localizacao__container .localizacao__text-container {
+  width: 40%;
+}
+.localizacao .localizacao__container .localizacao__google-maps-container {
+  width: 60%;
+  padding: 1rem;
+}
+.localizacao .localizacao__container .localizacao__google-maps-container iframe {
+  width: 75%;
+  height: 50vh;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.12);
+}/*# sourceMappingURL=Localizacao.css.map */

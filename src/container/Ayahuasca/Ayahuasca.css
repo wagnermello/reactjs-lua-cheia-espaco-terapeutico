@@ -1,0 +1,27 @@
+.ayahuasca .ayahuasca__container .ayahuasca__text-container {
+  width: 50%;
+}
+@media screen and (max-width: 880px) {
+  .ayahuasca .ayahuasca__container .ayahuasca__text-container {
+    width: 100%;
+    align-items: center;
+  }
+}
+.ayahuasca .ayahuasca__container .ayahuasca__image-container {
+  width: 50%;
+}
+@media screen and (max-width: 880px) {
+  .ayahuasca .ayahuasca__container .ayahuasca__image-container img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .ayahuasca .ayahuasca__container .ayahuasca__image-container img {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 880px) {
+  .ayahuasca .ayahuasca__container .ayahuasca__image-container {
+    display: none;
+  }
+}/*# sourceMappingURL=Ayahuasca.css.map */

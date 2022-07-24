@@ -1,0 +1,21 @@
+.taro {
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgb(103, 80, 214), rgba(7, 3, 28, 0.9)), url("../../assets/bg_secaotaro.jpg");
+}
+@media screen and (max-width: 900px) {
+  .taro {
+    background-image: linear-gradient(rgb(103, 80, 214), rgba(7, 3, 28, 0.9)), url("../../assets/bg_secaotaro_mobile.jpg");
+  }
+}
+.taro .taro__container {
+  width: 50%;
+}
+@media screen and (max-width: 880px) {
+  .taro .taro__container {
+    text-align: start;
+    align-items: center;
+    width: 100%;
+  }
+}/*# sourceMappingURL=Taro.css.map */

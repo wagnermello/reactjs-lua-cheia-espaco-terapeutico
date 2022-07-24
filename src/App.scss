@@ -1,36 +1,23 @@
+@import "./styles/app-flex.scss";
+@import "./styles/app-font-size.scss";
+@import "./styles/app-gap.scss";
+@import "./styles/app-wrapper.scss";
+@import "./styles/colors.scss";
+@import "./styles/reset.scss";
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
-@import "./styles/AppFlex.scss";
-@import "./styles/AppFontSize.scss";
-@import "./styles/AppGap.scss";
-@import "./styles/AppWrapper.scss";
+/*----------APP BASE----------*/
 
-/*----------BASE----------*/
 $font-base: "Montserrat", sans-serif;
-$medium-purple: #6750d6;
-$dark-purple-1: #190a4e;
-$dark-purple-2: #07031c;
-$light-purple-1: #e8e6ff;
-$light-purple-2: #c5bdff;
-$white-color: #ffffff;
-$gray-color: #777777;
 
 * {
-	font-family: "Montserrat", sans-serif;
+	font-family: $font-base;
 	color: $gray-color;
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
 	overflow-x: hidden;
 }
 
-a {
-	color: unset;
-	text-decoration: none;
-}
-/*----------BASE----------*/
-
-/*----------STYLES----------*/
+/*----------APP STYLES----------*/
 .app__bg {
 	background: $white-color;
 }
@@ -49,7 +36,7 @@ a {
 
 .p-text {
 	font-size: 1rem;
-	color: var(--gray-color);
+	color: $gray-color;
 }
 
 .p-text-purple {
@@ -65,7 +52,7 @@ a {
 
 .p-text-bold {
 	font-size: 1rem;
-	color: var(--gray-color);
+	color: $gray-color;
 	font-weight: 700;
 }
 
@@ -100,7 +87,7 @@ strong {
 	color: $medium-purple;
 	font-size: 1rem;
 	font-weight: 600;
-	background-color: (--white-color);
+	background-color: $white-color;
 	border: none;
 	border-radius: 8px;
 	text-transform: uppercase;
@@ -113,4 +100,3 @@ button {
 		width: 100%;
 	}
 }
-/*----------STYLES----------*/

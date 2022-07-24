@@ -1,0 +1,20 @@
+.rape .rape__container .rape__image-container {
+  width: 50%;
+}
+@media screen and (max-width: 880px) {
+  .rape .rape__container .rape__image-container {
+    display: none;
+  }
+}
+.rape .rape__container .rape__image-container img {
+  height: 50vh;
+}
+.rape .rape__container .rape__text-container {
+  width: 50%;
+}
+@media screen and (max-width: 880px) {
+  .rape .rape__container .rape__text-container {
+    width: 100%;
+    align-items: center;
+  }
+}/*# sourceMappingURL=Rape.css.map */

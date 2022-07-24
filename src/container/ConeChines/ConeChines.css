@@ -1,0 +1,50 @@
+/*----------COLOR-PALLETE----------*/
+.cone-chines {
+  background: #e8e6ff;
+}
+.cone-chines .cone-chines__container .cone-chines__image-container {
+  width: 50%;
+}
+.cone-chines .cone-chines__container .cone-chines__image-container img {
+  width: 85%;
+  margin-top: 2rem;
+}
+@media screen and (min-width: 880px) {
+  .cone-chines .cone-chines__container .cone-chines__image-container img {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .cone-chines .cone-chines__container .cone-chines__image-container img {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .cone-chines .cone-chines__container .cone-chines__image-container {
+    display: none;
+  }
+}
+.cone-chines .cone-chines__container .cone-chines__text-container {
+  width: 50%;
+}
+@media screen and (max-width: 1080px) {
+  .cone-chines .cone-chines__container .cone-chines__text-container {
+    width: 100%;
+    align-items: center;
+  }
+}
+.cone-chines .cone-chines__container .cone-chines__text-container img {
+  display: none;
+}
+@media screen and (max-width: 1080px) {
+  .cone-chines .cone-chines__container .cone-chines__text-container img {
+    display: flex;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .cone-chines .cone-chines__container .cone-chines__text-container img {
+    display: flex;
+    width: 100%;
+  }
+}/*# sourceMappingURL=ConeChines.css.map */
