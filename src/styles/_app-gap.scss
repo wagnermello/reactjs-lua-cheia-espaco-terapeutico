@@ -1,39 +1,23 @@
-.gap__y {
-	/*----------Change this values if you want----------*/
-	$gapY: 32px;
-	/*------------------------------------------------------*/
+@import "./scale-function";
 
-	gap: $gapY 0;
+/*----------GAP RESIZER----------*/
 
-	@media screen and (min-width: 1920px) {
-		gap: ($gapY * 1.4) 0;
-	}
-
-	@media screen and (min-width: 2560px) {
-		gap: ($gapY * 1.875) 0;
-	}
-
-	@media screen and (min-width: 3680px) {
-		gap: ($gapY * 2.7) 0;
-	}
+.gap__y24 {
+	gap: 1.5rem 0;
+	@include scaleGapY(1.5rem, 1366px);
 }
 
-.gap__x {
-	/*----------Change this values if you want----------*/
-	$gapX: 64px;
-	/*------------------------------------------------------*/
+.gap__y32 {
+	gap: 2rem 0;
+	@include scaleGapY(2rem, 1366px);
+}
 
-	gap: 0 $gapX;
+.gap__x16 {
+	gap: 0 4rem;
+	@include scaleGapX(4rem, 1366px);
+}
 
-	@media screen and (min-width: 1920px) {
-		gap: 0 ($gapX * 1.5);
-	}
-
-	@media screen and (min-width: 2560px) {
-		gap: 0 ($gapX * 1.875);
-	}
-
-	@media screen and (min-width: 3680px) {
-		gap: 0 ($gapX * 2.7);
-	}
+.gap__x64 {
+	gap: 0 4rem;
+	@include scaleGapX(4rem, 1366px);
 }

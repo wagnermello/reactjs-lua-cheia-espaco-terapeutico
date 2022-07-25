@@ -1,0 +1,41 @@
+@import "../../styles/scale-function";
+
+.atendimentos {
+	@media screen and (min-width: 880px) {
+		margin-top: 1.5rem;
+		@include scaleMargin(1.5rem, 0, 0, 0, 1366px);
+	}
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(
+			rgb(232, 230, 255, 0.9),
+			rgb(232, 230, 255, 0.9)
+		),
+		url("../../assets/bg_secaoatendimento.jpg");
+
+	@media screen and (max-width: 880px) {
+		background-image: linear-gradient(
+				rgb(232, 230, 255, 0.9),
+				rgb(232, 230, 255, 0.9)
+			),
+			url("../../assets/bg_secaoatendimento_mobile.jpg");
+	}
+
+	.atendimentos__container {
+		.atendimentos__container__images {
+			@media screen and (max-width: 880px) {
+				flex-direction: column;
+				gap: 2rem;
+			}
+
+			img {
+				height: 128px;
+				@include scaleHeight(128px, 1366px);
+				@media screen and (max-width: 880px) {
+					height: 96px;
+				}
+			}
+		}
+	}
+}

@@ -1,10 +1,10 @@
 import React from "react";
 
-import MedicinasFloresta from "../../container/MedicinasFloresta/MedicinasFloresta";
-import Ayahuasca from "../../container/Ayahuasca/Ayahuasca";
-import CerimoniaUniversalista from "../../container/CerimoniaUniversalista/CerimoniaUniversalista";
-import SagradoFeminino from "../../container/SagradoFeminino/SagradoFeminino";
-import Rape from "../../container/Rape/Rape";
+import MedicinasFloresta from "../../containers/MedicinasFloresta/MedicinasFloresta";
+import Ayahuasca from "../../containers/Ayahuasca/Ayahuasca";
+import CerimoniaUniversalista from "../../containers/CerimoniaUniversalista/CerimoniaUniversalista";
+import SagradoFeminino from "../../containers/SagradoFeminino/SagradoFeminino";
+import Rape from "../../containers/Rape/Rape";
 
 function MedicinasFlorestaPage() {
 	return (

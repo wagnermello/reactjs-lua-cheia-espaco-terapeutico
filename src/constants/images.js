@@ -1,4 +1,4 @@
-import logo from "../assets/logo.png";
+import logo_menu from "../assets/logo_menu.svg";
 import header_bg from "../assets/header_bg.jpg";
 import header_bg_mobile from "../assets/header_bg_mobile.jpg";
 import logo_header from "../assets/logo_header.svg";
@@ -25,7 +25,7 @@ import sagrado_feminino from "../assets/sagrado_feminino.png";
 import rape from "../assets/rape.png";
 
 export default {
-	logo,
+	logo_menu,
 	header_bg,
 	logo_header,
 	maraca,

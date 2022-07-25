@@ -1,6 +1,10 @@
+@import "../../styles/scale-function";
+
 .header {
-	@media screen and (min-width: 880px) {
-		margin-top: -4rem;
+	margin-top: 1.5rem;
+	@include scaleMargin(1.5rem, 0, 0, 0, 1366px);
+	@media screen and(max-width: 880px) {
+		margin: 0;
 	}
 
 	display: flex;
@@ -17,15 +21,9 @@
 }
 
 .header__logo {
-	@media screen and (max-width: 880px) {
-		width: 58%;
-	}
-
-	@media screen and (min-width: 1920px) {
-		width: 240px;
-	}
-
-	@media screen and (min-width: 3200px) {
-		width: 480px;
+	width: 180px;
+	@include scaleWidth(180px, 1366px);
+	@media screen and(max-width: 880px) {
+		width: 120px;
 	}
 }

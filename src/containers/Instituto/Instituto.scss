@@ -1,0 +1,34 @@
+.instituto__image-container {
+	width: 40%;
+
+	@media screen and (max-width: 1280px) {
+		display: none !important;
+	}
+
+	img {
+		/*----------Change these values----------*/
+		$height: 440px;
+		height: $height;
+		/*---------------------------------------------------*/
+
+		$min-width: 1080px;
+		$i: 1080px;
+		@while $min-width < 10000px {
+			$i: $i + 128px;
+			$height: calc($height * 1.0937);
+			$min-width: calc($min-width * 1.0937);
+
+			@media screen and (min-width: $min-width) {
+				height: $height !important;
+			}
+		}
+	}
+}
+
+.instituto__text-container {
+	width: 60%;
+
+	@media screen and (max-width: 1280px) {
+		width: 100%;
+	}
+}

@@ -1,30 +1,17 @@
+@import "./scale-function";
+
+/*----------BUTTON RESIZER----------*/
 button {
-	/*----------Change this value if you want----------*/
-	$button-font-size: 16px;
-	$button-border-radius: 8px;
-	$button-padding-top-bottom: 16px;
-	$button-padding-left-right: 32px;
-
-	/*------------------------------------------------------*/
-
-	border-radius: $button-border-radius;
-	font-size: $button-font-size;
-	padding: $button-padding-top-bottom $button-padding-left-right;
-
-	@media screen and (min-width: 1920px) {
-		font-size: $button-font-size * 1.4 !important;
-		border-radius: $button-border-radius * 1.4 !important;
-		padding: $button-padding-top-bottom * 1.4 $button-padding-left-right * 1.4;
+	@media screen and (max-width: 880px) {
+		width: 100%;
 	}
-	@media screen and (min-width: 2560px) {
-		font-size: $button-font-size * 1.875 !important;
-		border-radius: $button-border-radius * 1.875 !important;
-		padding: $button-padding-top-bottom * 1.875 $button-padding-left-right *
-			1.875;
-	}
-	@media screen and (min-width: 3840px) {
-		font-size: $button-font-size * 2.7 !important;
-		border-radius: $button-border-radius * 2.7 !important;
-		padding: $button-padding-top-bottom * 2.7 $button-padding-left-right * 2.7;
-	}
+
+	font-size: 1rem;
+	@include scaleFontSize(1rem, 1366px);
+
+	border-radius: 0.5rem;
+	@include scaleBorderRadius(0.5rem, 1366px);
+
+	padding: 1rem 2rem;
+	@include scalePadding(1rem, 2rem, 1rem, 2rem, 1366px);
 }

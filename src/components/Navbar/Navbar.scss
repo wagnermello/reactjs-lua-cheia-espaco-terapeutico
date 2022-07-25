@@ -1,5 +1,5 @@
 @import "../../styles/colors";
-
+@import "../../styles/scale-function";
 .navbar {
 	position: fixed;
 	width: 100%;
@@ -8,41 +8,34 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 1rem 2rem;
+	@include scalePadding(1rem, 2rem, 1rem, 2rem, 1366px);
+
 	background-color: $white-color;
 	box-shadow: 4px 4px 4px rgb(00, 00, 00, 0.06);
+	@include scaleBoxShadow(4px, 4px, 4px, 1366px);
+
 	z-index: 10;
 
 	@media screen and (max-width: 880px) {
 		display: none;
 	}
 
+	img {
+		width: 160px;
+		@include scaleWidth(160px, 1366px);
+	}
+
 	a {
 		font-size: 0.75rem;
+		@include scaleFontSize(0.75rem, 1366px);
 		margin-left: 2rem;
+		@include scaleMargin(0, 2rem, 0, 0, 1366px);
 		text-decoration: none;
 		text-transform: uppercase;
 		color: $gray-color;
-		transition: all 0.2s;
-
-		&:hover {
-			color: var $medium-purple;
-		}
-
-		@media screen and (min-width: 1920px) {
-			font-size: 1rem;
-		}
-
-		@media screen and (min-width: 3200px) {
-			font-size: 2rem;
-		}
-	}
-
-	img {
-		@media screen and (min-width: 1920px) {
-			width: 10%;
-		}
 	}
 
 	.active-link {
+		color: $medium-purple;
 	}
 }

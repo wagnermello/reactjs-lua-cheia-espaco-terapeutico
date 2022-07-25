@@ -1,6 +1,6 @@
 import React from "react";
 import { Header } from "../../components";
-import { Instituto } from "../../container";
+import Instituto from "../../containers/Instituto/Instituto";
 
 function Home() {
 	return (

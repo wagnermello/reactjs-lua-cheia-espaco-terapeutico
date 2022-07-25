@@ -1,9 +1,9 @@
 import React from "react";
-import Atendimentos from "../../container/Atendimentos/Atendimentos";
-import Benzimentos from "../../container/Benzimentos/Benzimentos";
-import Taro from "../../container/Taro/Taro";
-import Reiki from "../../container/Reiki/Reiki";
-import ConeChines from "../../container/ConeChines/ConeChines";
+import Atendimentos from "../../containers/Atendimentos/Atendimentos";
+import Benzimentos from "../../containers/Benzimentos/Benzimentos";
+import Taro from "../../containers/Taro/Taro";
+import Reiki from "../../containers/Reiki/Reiki";
+import ConeChines from "../../containers/ConeChines/ConeChines";
 
 function AtendimentosPage() {
 	return (

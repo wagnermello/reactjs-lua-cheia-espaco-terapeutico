@@ -1,0 +1,50 @@
+@import "../../styles/scale-function";
+
+.localizacao {
+	.localizacao__container {
+		@media screen and (max-width: 880px) {
+			flex-direction: column;
+			gap: 4rem;
+		}
+
+		.localizacao__text-container {
+			width: 40%;
+			@media screen and (max-width: 880px) {
+				width: 100%;
+			}
+
+			.iframe__mobile {
+				width: 280px;
+				height: 280px;
+				border: none;
+				border-radius: 0.5rem;
+				box-shadow: 4px 4px 8px rgb(00, 00, 00, 0.12);
+
+				@media screen and (min-width: 880px) {
+					display: none;
+				}
+			}
+		}
+		.localizacao__google-maps-container {
+			width: 60%;
+			padding: 1rem;
+			@include scalePadding(1rem, 1rem, 1rem, 1rem, 1366px);
+
+			@media screen and (max-width: 880px) {
+				display: none;
+			}
+
+			iframe {
+				width: 480px;
+				@include scaleWidth(480px, 1366px);
+				height: 300px;
+				@include scaleHeight(300px, 1366px);
+				border: none;
+				border-radius: 0.5rem;
+				@include scaleBorderRadius(0.5rem, 1366px);
+				box-shadow: 4px 4px 8px rgb(00, 00, 00, 0.12);
+				@include scaleBoxShadow(4px, 4px, 8px, 1366px);
+			}
+		}
+	}
+}

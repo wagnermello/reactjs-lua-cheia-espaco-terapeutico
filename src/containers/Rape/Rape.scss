@@ -1,0 +1,25 @@
+@import "../../styles/scale-function";
+
+.rape {
+	.rape__container {
+		.rape__image-container {
+			width: 50%;
+			@media screen and (max-width: 880px) {
+				display: none;
+			}
+
+			img {
+				height: 380px;
+				@include scaleHeight(380px, 1366px);
+			}
+		}
+
+		.rape__text-container {
+			width: 50%;
+			@media screen and(max-width: 880px) {
+				width: 100%;
+				align-items: center;
+			}
+		}
+	}
+}

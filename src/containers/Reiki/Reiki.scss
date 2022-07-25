@@ -1,0 +1,43 @@
+@import "../../styles/scale-function";
+.reiki {
+	.reiki__container {
+		.reiki__text-container {
+			width: 50%;
+
+			@media screen and (max-width: 1080px) {
+				width: 100%;
+				align-items: center;
+			}
+
+			img {
+				display: none;
+
+				@media screen and (max-width: 1080px) {
+					display: flex;
+					height: 320px;
+				}
+
+				@media screen and (max-width: 880px) {
+					display: flex;
+					height: 264px;
+				}
+
+				@media screen and (max-width: 460px) {
+					display: flex;
+					height: 180px;
+				}
+			}
+		}
+
+		.reiki__image-container {
+			img {
+				height: 320px;
+				@include scaleHeight(320px, 1366px);
+			}
+
+			@media screen and (max-width: 1080px) {
+				display: none;
+			}
+		}
+	}
+}

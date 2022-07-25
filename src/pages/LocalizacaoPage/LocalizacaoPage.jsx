@@ -1,5 +1,5 @@
 import React from "react";
-import Localizacao from "../../container/Localizacao/Localizacao";
+import Localizacao from "../../containers/Localizacao/Localizacao";
 
 function LocalizacaoPage() {
 	return <Localizacao />;

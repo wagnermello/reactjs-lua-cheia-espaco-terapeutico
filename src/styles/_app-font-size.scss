@@ -1,78 +1,28 @@
+/*----------FONT RESIZER----------*/
 p {
-	/*----------Change these values if you want----------*/
-	$p-font-size: 16px;
-	$p-line-height: 32px;
+	font-size: 1rem;
+	@include scaleFontSize(1rem, 1366px);
 
-	/*------------------------------------------------------*/
-
-	font-size: $p-font-size !important;
-	line-height: $p-line-height !important;
-
-	@media screen and (min-width: 1920px) {
-		font-size: $p-font-size * 1.4 !important;
-		line-height: $p-line-height * 1.4 !important;
-	}
-
-	@media screen and (min-width: 2560px) {
-		font-size: $p-font-size * 1.875 !important;
-		line-height: $p-line-height * 1.875 !important;
-	}
-
-	@media screen and (min-width: 3680px) {
-		font-size: $p-font-size * 2.7 !important;
-		line-height: $p-line-height * 2.7 !important;
-	}
+	line-height: 2rem;
+	@include scaleLineHeight(2rem, 1366px);
 }
 
 h1 {
-	/*----------Change this value if you want----------*/
-	$h1-font-size: 24px;
-	/*------------------------------------------------------*/
+	font-size: 1.5rem;
+	@include scaleFontSize(1.5rem, 1366px);
+}
 
-	font-size: $h1-font-size;
-
-	@media screen and (min-width: 1920px) {
-		font-size: $h1-font-size * 1.4 !important;
-	}
-	@media screen and (min-width: 2560px) {
-		font-size: $h1-font-size * 1.875 !important;
-	}
-	@media screen and (min-width: 3840px) {
-		font-size: $h1-font-size * 2.7 !important;
-	}
+h2 {
+	font-size: 1.25rem;
+	@include scaleFontSize(1.25rem, 1366px);
 }
 
 span {
-	/*----------Change this value if you want----------*/
-	$span-font-size: 16px;
-	/*------------------------------------------------------*/
-	font-size: $span-font-size;
-
-	@media screen and (min-width: 1920px) {
-		font-size: $span-font-size * 1.4 !important;
-	}
-	@media screen and (min-width: 2560px) {
-		font-size: $span-font-size * 1.875 !important;
-	}
-	@media screen and (min-width: 3840px) {
-		font-size: $span-font-size * 2.7 !important;
-	}
+	font-size: 1rem;
+	@include scaleFontSize(1rem, 1366px);
 }
 
 b {
-	/*----------Change this value if you want----------*/
-	$bold-font-size: 16px;
-	/*------------------------------------------------------*/
-
-	font-size: $bold-font-size;
-
-	@media screen and (min-width: 1920px) {
-		font-size: $bold-font-size * 1.4 !important;
-	}
-	@media screen and (min-width: 2560px) {
-		font-size: $bold-font-size * 1.875 !important;
-	}
-	@media screen and (min-width: 3840px) {
-		font-size: $bold-font-size * 2.7 !important;
-	}
+	font-size: 1rem;
+	@include scaleFontSize(1rem, 1366px);
 }

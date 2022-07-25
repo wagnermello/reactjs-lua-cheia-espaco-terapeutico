@@ -1,0 +1,25 @@
+@import "../../styles/scale-function";
+.ayahuasca {
+	.ayahuasca__container {
+		.ayahuasca__text-container {
+			width: 50%;
+
+			@media screen and (max-width: 880px) {
+				width: 100%;
+				align-items: center;
+			}
+		}
+
+		.ayahuasca__image-container {
+			width: 50%;
+
+			img {
+				height: 280px;
+				@include scaleHeight(280px, 1366px);
+			}
+		}
+		@media screen and (max-width: 880px) {
+			display: none;
+		}
+	}
+}

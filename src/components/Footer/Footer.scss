@@ -1,3 +1,5 @@
+@import "../../styles/scale-function";
+
 .footer {
 	background-image: linear-gradient(#190a4e, #07031c);
 
@@ -6,9 +8,12 @@
 	}
 
 	.social-media-icons {
-		gap: 0 1rem;
 		img {
-			width: 4rem;
+			width: 64px;
+			@include scaleWidth(64px, 1366px);
+		}
+		@media screen and(max-width: 880px) {
+			gap: 0 32px;
 		}
 	}
 }

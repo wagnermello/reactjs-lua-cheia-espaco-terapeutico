@@ -1,0 +1,33 @@
+@import "../../styles/colors.scss";
+@import "../../styles/scale-function";
+
+.sagrado-feminino {
+	background: $light-purple-1;
+	overflow-y: hidden;
+
+	.sagrado-feminino__text-container {
+		width: 50%;
+
+		@media screen and(max-width: 880px) {
+			width: 100%;
+			text-align: left;
+		}
+
+		img {
+			display: none;
+			@media screen and(max-width: 880px) {
+				display: flex;
+			}
+		}
+	}
+	.sagrado-feminino__image-container {
+		width: 50%;
+		img {
+			height: 380px;
+			@include scaleHeight(380px, 1366px);
+		}
+		@media screen and(max-width: 880px) {
+			display: none;
+		}
+	}
+}

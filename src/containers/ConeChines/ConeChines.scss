@@ -1,0 +1,51 @@
+@import "../../styles/colors";
+@import "../../styles/scale-function";
+
+.cone-chines {
+	background: $light-purple-1;
+
+	.cone-chines__container {
+		.cone-chines__image-container {
+			width: 50%;
+
+			img {
+				height: 448px;
+				@include scaleHeight(448px, 1366px);
+				margin-top: 1rem;
+				@include scaleMargin(1rem, 0, 0, 0, 1366px);
+			}
+
+			@media screen and (max-width: 1080px) {
+				display: none;
+			}
+		}
+
+		.cone-chines__text-container {
+			width: 50%;
+
+			@media screen and (max-width: 1080px) {
+				width: 100%;
+				align-items: center;
+			}
+
+			img {
+				display: none;
+
+				@media screen and (max-width: 1080px) {
+					display: flex;
+					height: 448px;
+				}
+
+				@media screen and (max-width: 880px) {
+					display: flex;
+					height: 380px;
+				}
+
+				@media screen and (max-width: 460px) {
+					display: flex;
+					height: 280px;
+				}
+			}
+		}
+	}
+}
