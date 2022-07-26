@@ -6,7 +6,7 @@ import "./Footer.scss";
 
 function Footer() {
 	return (
-		<footer className="footer app__wrapper">
+		<footer className="footer app__wrapper" href="#footer">
 			<motion.div
 				className="flex__column__center container__wrapper gap__y32"
 				whileInView={{ opacity: [0, 1] }}

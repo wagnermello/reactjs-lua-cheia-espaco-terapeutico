@@ -33,9 +33,13 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		color: $gray-color;
-	}
 
-	.active-link {
-		color: $medium-purple;
+		&:hover {
+			color: $medium-purple;
+		}
+
+		.active {
+			color: $medium-purple;
+		}
 	}
 }

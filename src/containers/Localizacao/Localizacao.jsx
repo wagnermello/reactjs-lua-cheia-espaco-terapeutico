@@ -6,7 +6,11 @@ import "./Localizacao.scss";
 function Localizacao() {
 	return (
 		<section className="localizacao app__wrapper">
-			<motion.div className="localizacao__container container__wrapper gap__x64">
+			<motion.div
+				className="localizacao__container container__wrapper gap__x64"
+				whileInView={{ opacity: [0, 1] }}
+				transition={{ duration: 1, delay: 0.1 }}
+			>
 				<div className="localizacao__text-container gap__y32 flex__column__center">
 					<h1 className="title">Como chegar até aqui?</h1>
 					<iframe

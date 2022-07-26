@@ -9,10 +9,13 @@ import LocalizacaoPage from "./pages/LocalizacaoPage/LocalizacaoPage";
 import MedicinasFlorestaPage from "./pages/MedicinasFlorestaPage/MedicinasFlorestaPage";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import Copyright from "./components/Copyright/Copyright";
+import ScrollToTop from "./components/Navbar/ScrollToTop";
 
 function RoutesApp() {
 	return (
 		<BrowserRouter>
+			<ScrollToTop />
+
 			<Navbar />
 			<Routes>
 				<Route path="/" element={<HomePage />} />

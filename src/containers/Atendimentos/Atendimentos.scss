@@ -24,6 +24,7 @@
 
 	.atendimentos__container {
 		.atendimentos__container__images {
+			width: 100%;
 			@media screen and (max-width: 880px) {
 				flex-direction: column;
 				gap: 2rem;
