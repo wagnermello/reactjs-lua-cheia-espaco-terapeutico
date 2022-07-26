@@ -4,6 +4,7 @@ import Benzimentos from "../../containers/Benzimentos/Benzimentos";
 import Taro from "../../containers/Taro/Taro";
 import Reiki from "../../containers/Reiki/Reiki";
 import ConeChines from "../../containers/ConeChines/ConeChines";
+import NavbarMobileAtendimentos from "../../components/NavbarMobile/NavbarMobileAtendimentos";
 
 function AtendimentosPage() {
 	return (
@@ -13,6 +14,7 @@ function AtendimentosPage() {
 			<Taro />
 			<Reiki />
 			<ConeChines />
+			<NavbarMobileAtendimentos />
 		</div>
 	);
 }

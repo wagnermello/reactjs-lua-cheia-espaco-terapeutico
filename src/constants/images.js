@@ -23,6 +23,15 @@ import bg_cerimoniauniversalista from "../assets/bg_cerimoniauniversalista.jpg";
 import bg_cerimoniauniversalista_mobile from "../assets/bg_cerimoniauniversalista_mobile.jpg";
 import sagrado_feminino from "../assets/sagrado_feminino.png";
 import rape from "../assets/rape.png";
+import mobile_navbar_atendimentos_active from "../assets/mobile-navbar_atendimentos-active.svg";
+import mobile_navbar_atendimentos_inactive from "../assets/mobile-navbar_atendimentos-inactive.svg";
+import mobile_navbar_contato_inactive from "../assets/mobile-navbar_contato-inactive.svg";
+import mobile_navbar_home_active from "../assets/mobile-navbar_home-active.svg";
+import mobile_navbar_home_inactive from "../assets/mobile-navbar_home-inactive.svg";
+import mobile_navbar_localizacao_active from "../assets/mobile-navbar_localizacao-active.svg";
+import mobile_navbar_localizacao_inactive from "../assets/mobile-navbar_localizacao-inactive.svg";
+import mobile_navbar_medicinas_active from "../assets/mobile-navbar_medicinas-active.svg";
+import mobile_navbar_medicinas_inactive from "../assets/mobile-navbar_medicinas-inactive.svg";
 
 export default {
 	logo_menu,
@@ -50,4 +59,13 @@ export default {
 	bg_cerimoniauniversalista_mobile,
 	sagrado_feminino,
 	rape,
+	mobile_navbar_atendimentos_active,
+	mobile_navbar_atendimentos_inactive,
+	mobile_navbar_contato_inactive,
+	mobile_navbar_home_active,
+	mobile_navbar_home_inactive,
+	mobile_navbar_localizacao_active,
+	mobile_navbar_localizacao_inactive,
+	mobile_navbar_medicinas_active,
+	mobile_navbar_medicinas_inactive,
 };

@@ -20,6 +20,13 @@
 		img {
 			height: 280px;
 			@include scaleHeight(280px, 1366px);
+
+			@media screen and (max-width: 880px) {
+				height: 200px;
+			}
+			@media screen and (max-width: 460px) {
+				height: 120px;
+			}
 		}
 	}
 }

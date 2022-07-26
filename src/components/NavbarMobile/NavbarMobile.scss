@@ -1,0 +1,24 @@
+@import "../../styles/colors";
+
+.navbar__mobile {
+	background-color: $white-color;
+	border-radius: 1rem 1rem 0 0;
+	box-shadow: -4px -4px 8px rgb(00, 00, 00, 0.08);
+	width: 100%;
+	height: 4rem;
+	justify-content: center;
+	position: fixed;
+	bottom: 0;
+
+	div {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	@media screen and(min-width: 880px) {
+		display: none !important;
+	}
+}
