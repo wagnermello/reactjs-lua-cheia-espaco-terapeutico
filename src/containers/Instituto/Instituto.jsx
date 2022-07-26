@@ -1,6 +1,8 @@
 import React from "react";
 import images from "../../constants/images";
 import { motion } from "framer-motion";
+import { Button } from "../../components/Button/Button";
+
 import "./Instituto.scss";
 
 function Instituto() {
@@ -46,9 +48,18 @@ function Instituto() {
 							espiritualidade se encontram e caminham juntas”.
 						</p>
 					</div>
-					<button href="#" className="button-purple">
+					<Button
+						buttonStyle="button-purple"
+						onClick={() =>
+							window.open(
+								"https://api.whatsapp.com/send?phone=555181339066&text=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es...",
+								"_blank"
+							)
+						}
+						type="button"
+					>
 						ENTRAR EM CONTATO
-					</button>
+					</Button>
 				</div>
 			</motion.div>
 		</section>

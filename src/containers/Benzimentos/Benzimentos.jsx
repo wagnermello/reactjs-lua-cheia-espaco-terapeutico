@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import images from "../../constants/images";
+import { Button } from "../../components/Button/Button";
 
 import "./Benzimentos.scss";
 
@@ -25,7 +26,18 @@ function Benzimentos() {
 						chegada, a <b>partir das 20h</b>, e a contribuição é a doação de
 						velas para o trabalho.
 					</p>
-					<button className="button-purple">SAIBA MAIS</button>
+					<Button
+						buttonStyle="button-purple"
+						onClick={() =>
+							window.open(
+								"https://api.whatsapp.com/send?phone=555181339066&text=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Passes%20e%20Benzimentos...",
+								"_blank"
+							)
+						}
+						type="button"
+					>
+						SAIBA MAIS
+					</Button>
 				</div>
 			</motion.div>
 		</section>

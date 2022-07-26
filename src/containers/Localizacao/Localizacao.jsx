@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Button } from "../../components/Button/Button";
 
 import "./Localizacao.scss";
 
@@ -28,7 +29,18 @@ function Localizacao() {
 						<br />
 						95590-000 Tramandaí, RS
 					</p>
-					<button className="button-purple">ABRIR NO MAPS</button>
+					<Button
+						buttonStyle="button-purple"
+						onClick={() =>
+							window.open(
+								"https://www.google.com/maps?ll=-29.998321,-50.147742&z=16&t=m&hl=pt-BR&gl=BR&mapclient=embed&cid=5766241466072189732",
+								"_blank"
+							)
+						}
+						type="button"
+					>
+						ABRIR NO MAPS
+					</Button>
 				</div>
 				<div className="localizacao__google-maps-container flex__column__center">
 					<iframe

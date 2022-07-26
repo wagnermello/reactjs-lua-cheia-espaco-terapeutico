@@ -5,9 +5,7 @@ function Copyright() {
 	return (
 		<div className="copyright__container">
 			<p>Copyright 2022 - Instituto Espiritual Xamânico Lua Cheia</p>
-			<a href="/politica-e-termos-de-privacidade">
-				Política e Termos de Privacidade
-			</a>
+			<a href="/politica-de-privacidade">Política e Termos de Privacidade</a>
 		</div>
 	);
 }

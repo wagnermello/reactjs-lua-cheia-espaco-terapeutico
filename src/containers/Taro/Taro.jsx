@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Button } from "../../components/Button/Button";
 
 import "./Taro.scss";
 
@@ -26,7 +27,18 @@ function Taro() {
 					Ele parte da <b className="p-text-white-bold">numerologia</b> pessoal
 					para interpretar as mensagens, conforme o momento que está passando.
 				</p>
-				<button className="button-white">AGENDAR TARÔ</button>
+				<Button
+					buttonStyle="button-white"
+					onClick={() =>
+						window.open(
+							"https://api.whatsapp.com/send?phone=555181339066&text=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Tar%C3%B4...",
+							"_blank"
+						)
+					}
+					type="button"
+				>
+					AGENDAR TARÔ
+				</Button>
 			</motion.div>
 		</section>
 	);

@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import images from "../../constants/images";
+import { Button } from "../../components/Button/Button";
 
 import "./Rape.scss";
 
@@ -26,7 +27,18 @@ function Rape() {
 						acessa descontos especiais direto no site da Pôr-do-Sol, onde
 						encontra toda a linha de produtos e vestimentas xamânicas:
 					</p>
-					<button className="button-purple">ADQUIRIR</button>
+					<Button
+						buttonStyle="button-purple"
+						onClick={() =>
+							window.open(
+								"https://www.pordosolexpansao.com.br/?coupon=LUACHEIA",
+								"_blank"
+							)
+						}
+						type="button"
+					>
+						USAR CUPOM
+					</Button>
 				</div>
 			</motion.div>
 		</section>
