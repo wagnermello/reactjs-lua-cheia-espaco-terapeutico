@@ -8,6 +8,7 @@
 </h3>
 
 <p>Acesse o resultado final no meu site: https://wagnermello.com/lua-cheia</p>
+<p><b>OBS:</b> Utilizei o SCSS App Resizer (desenvolvido por mim). Portanto o site está escalando as suas proporções até 8K perfeitamente. Experimente dar um zoom out para testar a resolução em telas gigantes.</p>
 
 #
 
