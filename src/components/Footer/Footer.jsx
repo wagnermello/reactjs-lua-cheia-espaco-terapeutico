@@ -42,7 +42,7 @@ function Footer() {
 						<img src={images.instagram_icon} alt="ícone do instagram" />
 					</a>
 				</div>
-				<p className="p-text-white-bold">51 9 8925 3468</p>
+				<p className="p-text-white-bold">51 98925 3468</p>
 			</motion.div>
 		</footer>
 	);

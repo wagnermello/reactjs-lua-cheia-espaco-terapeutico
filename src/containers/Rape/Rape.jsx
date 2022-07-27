@@ -21,11 +21,11 @@ function Rape() {
 					<p className="p-text">
 						Medicina que ancora as cerimônias de Ayahuasca e os trabalhos
 						espiritualistas. <b>Temos disponível</b> para venda em{" "}
-						<b> pronta-entrega</b> os
-						<b>Rapés da Pôr-do-sol Expansão</b>. Podem ser adquiridos também
-						pelo <b>link EXCLUSIVO</b> para clientes do Lua Cheia. Com ele você
-						acessa descontos especiais direto no site da Pôr-do-Sol, onde
-						encontra toda a linha de produtos e vestimentas xamânicas:
+						<b> pronta-entrega</b> os <b>Rapés da Pôr-do-sol Expansão</b>. Podem
+						ser adquiridos também pelo <b>link EXCLUSIVO</b> para clientes do
+						Lua Cheia. Com ele você acessa descontos especiais direto no site da
+						Pôr-do-Sol, onde encontra toda a linha de produtos e vestimentas
+						xamânicas:
 					</p>
 					<Button
 						buttonStyle="button-purple"

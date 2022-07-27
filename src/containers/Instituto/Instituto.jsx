@@ -25,7 +25,7 @@ function Instituto() {
 						<p>
 							O <strong>Lua Cheia Espaço Terapêutico</strong> surgiu em 2017 do
 							desejo de integrar e oferecer, em um único espaço, os saberes
-							terapêuticos da <strong>Renata Ilha</strong>
+							terapêuticos da <strong>Renata Ilha</strong>.
 						</p>
 						<p>
 							Psicóloga de formação, buscadora e aprendiz no{" "}
