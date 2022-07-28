@@ -16,7 +16,7 @@
 <p>Acesse o projeto no Figma (desenvolvido por mim): https://www.figma.com/file/dnfjlSKSNQLe1tNO5X5hQl/Lua-Cheia-Espa%C3%A7o-Terap%C3%AAutico?node-id=0%3A1 </p>
 
 
-<p><b>OBS:</b> Utilizei o SCSS App Resizer (desenvolvido por mim). Portanto o site está escalando as suas proporções até 8K perfeitamente. Experimente dar um zoom out para testar a resolução em telas gigantes.</p>
+<p><b>OBS:</b> Utilizei o SCSS App Resizer (desenvolvido por mim). Portanto o site está escalando as suas proporções perfeitamente até 8K. Experimente dar um zoom out para testar a resolução em telas gigantes.</p>
 
 #
 
